@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+/*font-family: 'JetBrains Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    position: relative;
+}
+
+header{
+height: 100px;
+width: 100%;
+
+background: #17C89A;
+background: -webkit-linear-gradient(right, #17C89A, #142843);
+background: -moz-linear-gradient(right, #17C89A, #142843);
+background: linear-gradient(to left, #17C89A, #142843);
+}
+ 
+header img{
+    height: 70px;
+    width: 100px;
+    position: absolute;
+    top:15px;
+    left: 10px;
+}
+
+header h2{
+    font-family: 'JetBrains Mono', monospace;
+    color: #f8f1f1;
+    font-size: 34px;
+    position: absolute;
+    left: 110px;
+    top: 30px;
+}
+
+header h4{
+    color:#f8f1f1 ;
+    position: absolute;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    top:70px;
+    left:110px
+}
+
+
+header a{
+color:  #f8f1f1;
+text-decoration: none;
+margin: 10px;
+font-size: 20px;
+font-family: 'JetBrains Mono', monospace;
+padding: 10px;
+} 
+
+header a:hover{
+    background-color: #f8f1f1;
+    color:#142843 ;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+nav{
+    position: absolute;
+    left:670px;
+    top:40px ;  
+}
+body{
+    background: #f8f1f1;
+  
+}
+
+
+main{
+
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    gap:30px ;
+    margin: 10px 0;
+}
+main h1{
+    grid-column: 1 / -1;
+    
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #142843;
+    font-family: 'Lobster', cursive;;
+    font-size: 60px;
+}
+h1::after{
+    content: "";
+    height: 3px;
+    width: 250px;
+    background-color: #142843;
+    margin: 10px auto;
+    display: block;
+}
+
+.course{
+    background-color: #f8f1f1;
+    color:#19456B;
+
+
+    height: 600px;
+    grid-template-columns:1/2 ;
+    margin:30px 30px;
+    border-radius: 20px;
+    box-shadow:0 0px 8px 3px  #19456B;
+    position: relative;
+    overflow: hidden;
+
+}
+.course:hover{
+    background-color: #16c79a;
+    color: #f8f1f1;
+    box-shadow:0 0px 12px 3px  #16c79a;
+
+
+    
+
+
+}
+.priceBox{
+
+
+    position: absolute;
+    bottom: 5%;
+    left:  5%;
+    width: 60%;
+    height:10%;
+   
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+
+}
+#register{
+    background-color: #16c79a;
+
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 80px;
+    height:30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    color:#f8f1f1 ;
+
+}
+
+.course:hover > #register {
+     background-color: #19456B;
+
+  }
+
+
+.course h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+
+
+}
+
+.course img{
+    height:300px ;
+    width: 96%;
+
+    margin: 10px 10px;
+
+border-radius: 20px;
+}
+.course p{
+
+    margin:10px 10px;
+
+}
+.course ul{
+    margin: 0 10px;
+}
+ li::before {content: "•"; margin: 3px;}
+
+
+footer{
+    height: 80px;
+    width: 100%;
+
+    background: #17C89A;
+background: -webkit-linear-gradient(right, #17C89A, #142843);
+background: -moz-linear-gradient(right, #17C89A, #142843);
+background: linear-gradient(to left, #17C89A, #142843);
+}
+
+footer h2{
+    font-family: 'JetBrains Mono', monospace;
+    color: #f8f1f1;
+    font-size: 25px;
+    position: absolute;
+    left: 470px;
+    bottom: 25px; 
+}

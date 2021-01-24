@@ -63,9 +63,7 @@ nav{
     top:40px ;  
 }
 
-main{
-    height: 700px;
-}
+
 
 
 footer{
@@ -83,6 +81,6 @@ footer h2{
     color: #f8f1f1;
     font-size: 25px;
     position: absolute;
-    left: 470px;
+    left: 40%;
     bottom: 25px; 
 }
