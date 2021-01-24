@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+body{
+    background-image: url('/img/ff.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  width: 100%;
+   
+}
+header{
+    height: 100px;
+    width: 100%;
+    opacity: .7;
+    background: #17C89A;
+    background: -webkit-linear-gradient(right, #17C89A, #142843);
+    background: -moz-linear-gradient(right, #17C89A, #142843);
+    background: linear-gradient(to left, #17C89A, #142843);
+    }
+     
+    img{
+        height: 70px;
+        width: 100px;
+        position: absolute;
+        top:15px;
+        left: 10px;
+    }
+    
+    header h2{
+        font-family: 'JetBrains Mono', monospace;
+        color: #f8f1f1;
+        font-size: 34px;
+        position: absolute;
+        left: 110px;
+        top: 30px;
+    }
+    
+    header h4{
+        color:#f8f1f1 ;
+        position: absolute;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        top:70px;
+        left:110px
+    }
+    
+    
+   header a{
+    color:  #f8f1f1;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 10px;
+    } 
+    
+   header a:hover{
+        background-color: #f8f1f1;
+        color:#142843 ;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    nav{
+        position: absolute;
+        left:670px;
+        top:40px ;  
+    }
+    main{
+        height: 17.9cm;
+   
+    }
+    
+footer{
+    height: 80px;
+    width: 100%;
+   
+    background: #17C89A;
+background: -webkit-linear-gradient(right, #17C89A, #142843);
+background: -moz-linear-gradient(right, #17C89A, #142843);
+background: linear-gradient(to left, #17C89A, #142843);
+}
+
+footer h2{
+    font-family: 'JetBrains Mono', monospace;
+    color: #f10d0d;
+    font-size: 25px;
+    position: relative;
+    left: 40%;
+    bottom: 25px; 
+}
+#formdiv h1{
+    position: relative;
+    margin: 10px auto 0px auto ;
+    left: -25%;
+    font-size: 30px;
+    color: rgb(245, 247, 250);
+    background-color: black;
+    width: fit-content;
+}
+ #formdiv{
+   
+     height:70%;
+     width: 30%;
+     position: relative;
+     left: 35%;
+     top: 2cm;
+    
+ }
+#formdiv form{
+    background-color: black;
+    height: 80%;
+    width: 100%;
+
+    margin: auto;
+    margin-top: 5px;
+    border: solid white;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+   
+    
+}
+#formdiv input:nth-child(2) {
+    position:relative;
+  top: .5cm;
+  left: 2cm;
+
+}
+#formdiv input:nth-child(5) {
+    position:relative;
+  top: 1.7cm;
+  left: 2.4cm;
+
+}
+#formdiv input:nth-child(8) {
+    position:relative;
+  top: 2.8cm;
+  left: 2.05cm;
+
+}
+#formdiv input{
+    background-color: whitesmoke;
+
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: black;
+}
+
+#formdiv input:nth-child(11) {
+    position:relative;
+    top: 3.8cm;
+    left: 1.5cm;
+  
+}
+#formdiv input:nth-child(12) {
+    position:relative;
+    top: 6cm;
+    left: 27%;
+    width: 5cm;
+  
+}
+
+
+
+#formdiv input:hover{
+    background-color: rgb(15, 233, 167);
+}
+
+#formdiv label{
+    font-size: 20px;
+    margin-right: 0cm;
+    margin-left: 5px;
+
+}
+#formdiv label:nth-child(1){
+    position: relative;
+    top: .5cm;
+    color: whitesmoke;
+}
+#formdiv label:nth-child(4){
+    position: relative;
+    top: 1.7cm;
+    color: whitesmoke;
+}
+#formdiv label:nth-child(7){
+    position: relative;
+    top: 2.8cm;
+    color:whitesmoke;
+}
+#formdiv label:nth-child(10){
+    position: relative;
+    top: 3.8cm;
+    color: whitesmoke;
+}
+#formdiv label:nth-child(13){
+    position: relative;
+    top: 5cm;
+    color: whitesmoke;
+}
+
+#formdiv h3{
+    width: fit-content;
+    background-color: red;
+    color: whitesmoke;
+    position: relative;
+    left: 1.1cm;
+    font-size: 20px;
+}
+
+#formdiv label:hover{
+    background-color: rgb(15, 233, 167);
+    color: red;
+}
+#sign{ 
+    position: absolute;
+    left:-110%;
+    top: 1cm;
+    width: 100%;
+}
+#pswf{
+    color: whitesmoke;
+}
+#sign fieldset{
+position: relative;
+left: 10px;
+}
+#sign input{
+    position: relative;
+    width: 6cm;
+    left: 2cm;
+    font-size: 20px;
+}
+#sub{
+    opacity: 0;
+}
