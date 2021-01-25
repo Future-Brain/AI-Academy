@@ -1,0 +1,226 @@
+* {
+    margin:0;
+   padding: 0;
+   font-family: sans-serif;
+}
+header{
+    height: 100px;
+    width: 100%;
+    
+    background: #17C89A;
+    background: -webkit-linear-gradient(right, #17C89A, #142843);
+    background: -moz-linear-gradient(right, #17C89A, #142843);
+    background: linear-gradient(to left, #17C89A, #142843);
+    }
+     
+    header img{
+        height: 60px;
+        width: 90px;
+        position: absolute;
+        top:15px;
+        left: 30px;
+    }
+    
+    header h2{
+        font-family: 'JetBrains Mono', monospace;
+        color: #f8f1f1;
+        font-size: 34px;
+        position: absolute;
+        left: 120px;
+        top: 25px;
+    }
+    
+    header h4{
+        color:#f8f1f1 ;
+        position: absolute;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        top:65px;
+        left:120px
+    }
+    
+    
+    header a{
+    color:  #f8f1f1;
+    text-decoration: none;
+    margin: 6px;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 10px;
+    } 
+    
+     header a:hover{
+        background-color: #f8f1f1;
+        color:#142843 ;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    nav{
+        position: absolute;
+        left:56%;
+        top:40px ;  
+    }
+
+
+.hero{
+    width: 100;
+    height: 100%;
+    background-image: url(/img/new.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.content{
+    color: #fbfcfd;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-90%);
+    z-index: 2;
+}
+h3{
+    font-size: 60px;
+    margin: 5px 0 40px;
+    line-height: 80px;
+}
+
+ h2 {
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    font-size: 1em;
+    line-height: 5;
+}
+
+h2 span{
+    color:  #11C37C;
+}
+
+#button{
+position: relative;
+display: inline-block;
+padding: 15px 30px;
+color: #11C37C;
+text-transform: uppercase;
+letter-spacing: 4px;
+text-decoration: none;
+font-size: 24px;
+overflow: hidden;
+transition: 0.2s;
+}
+
+#button:hover{
+color: #7A7FBA;
+background: #11C37C; 
+box-shadow: 0 0 10px #11C37C,0 0 40px #11C37C,0 0 80px #11C37C;
+transition-delay: 1s;
+}
+#button span{
+    position: absolute;
+    display: block;
+}
+
+#button span:nth-child(1){
+    top: 0;
+    left:-100%;
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#11C37C);
+}
+#button:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+
+}
+
+#button span:nth-child(3){
+    bottom: 0;
+    right:-100%;
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#11C37C);
+}
+#button:hover span:nth-child(3){
+    right:100%;
+    transition: 1s;
+ transition-delay: 0.5s ;
+    
+}
+#button span:nth-child(2){
+    top: -100;
+    right:0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#11C37C);
+}
+#button:hover span:nth-child(2){
+    top:100%;
+    transition: 1s;
+ transition-delay: 0.25s ;
+    
+}
+#button span:nth-child(4){
+    bottom: -100;
+    left:0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#11C37C);
+}
+#button:hover span:nth-child(4){
+    bottom:100%;
+    transition: 1s;
+ transition-delay: 0.75s ;
+    
+}
+
+@media(max-width:800px){
+    h2{
+    font-size: 1.7em;
+}
+
+h3{
+    margin: 0 0 20px 0;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background: #17C89A;
+    background: -webkit-linear-gradient(right, #17C89A, #142843);
+    background: -moz-linear-gradient(right, #17C89A, #142843);
+    background: linear-gradient(to left, #17C89A, #142843);
+    
+    
+    }
+    
+    footer h2{
+        font-family: 'JetBrains Mono', monospace;
+        color: #f8f1f1;
+        font-size: 15px;
+        position: absolute;
+        left: 45%;
+        bottom: 15px; 
+    }
+    
+    .footer-icons i{
+        background-color:#f8f1f1 ;
+        border-radius: 80%;
+        color: #05795c;
+        padding: 10px;  
+        margin: 5px 10px 5px 5px;
+    }
+    
+    .footer-icons{
+        position: relative;
+        left: 42%;
+        top:20%;
+    }
+    .footer-icons i:hover{
+    background-color:#142843;
+    color: #F8F1F1;
+    }
+    
