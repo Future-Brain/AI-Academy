@@ -90,7 +90,7 @@ main h1{
 h1::after{
     content: "";
     height: 3px;
-    width: 250px;
+    width: 450px;
     background-color: #142843;
     margin: 10px auto;
     display: block;
@@ -163,6 +163,7 @@ main a{
     text-align: center;
     font-size: 20px;
     font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
 
 
 }
