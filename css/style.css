@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+/*font-family: 'JetBrains Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*font-family: 'Lobster', cursive;*/
+body{
+position: relative;
+background: #9AD3BC;
+background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
+background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
+background: linear-gradient(to bottom left, #9AD3BC, #F8F1F1);
+}
+
+header{
+height: 100px;
+width: 100%;
+
+background: #17C89A;
+background: -webkit-linear-gradient(right, #17C89A, #142843);
+background: -moz-linear-gradient(right, #17C89A, #142843);
+background: linear-gradient(to left, #17C89A, #142843);
+}
+ 
+header img{
+    height: 60px;
+    width: 90px;
+    position: absolute;
+    top:15px;
+    left: 30px;
+}
+
+header h2{
+    font-family: 'JetBrains Mono', monospace;
+    color: #f8f1f1;
+    font-size: 34px;
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+
+header h4{
+    color:#f8f1f1 ;
+    position: absolute;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    top:65px;
+    left:120px
+}
+
+
+header a{
+color:  #f8f1f1;
+text-decoration: none;
+margin: 6px;
+font-size: 20px;
+font-family: 'JetBrains Mono', monospace;
+padding: 10px;
+} 
+
+ header a:hover{
+    background-color: #f8f1f1;
+    color:#142843 ;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+nav{
+    position: absolute;
+    left:56%;
+    top:40px ;  
+}
+
+footer{
+height: 100px;
+width: 100%;
+position: relative;
+background: #17C89A;
+background: -webkit-linear-gradient(right, #17C89A, #142843);
+background: -moz-linear-gradient(right, #17C89A, #142843);
+background: linear-gradient(to left, #17C89A, #142843);
+
+
+}
+
+footer h2{
+    font-family: 'JetBrains Mono', monospace;
+    color: #f8f1f1;
+    font-size: 15px;
+    position: absolute;
+    left: 45%;
+    bottom: 15px; 
+}
+
+.footer-icons i{
+    background-color:#f8f1f1 ;
+    border-radius: 80%;
+    color: #05795c;
+    padding: 10px;  
+    margin: 5px 10px 5px 5px;
+}
+
+.footer-icons{
+    position: relative;
+    left: 42%;
+    top:20%;
+}
+.footer-icons i:hover{
+background-color:#142843;
+color: #F8F1F1;
+}
+
+
+/*****************************************************************/
+
+.Team{
+    margin: 75px 0;
+}
+
+.container{
+   display: flex;
+   margin: 70px;
+   text-align: center;
+   width: auto;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.container .team-member{
+    background-color: #f8f1f1;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color:#11698e;
+    position: relative;
+}
+
+.container .team-member h3{
+    font-family: 'JetBrains Mono', monospace;;
+    font-weight: bold;
+    font-size: 22px;
+    color:#142843;
+    margin-top: 10px;
+}
+
+.container .team-member p{
+    margin-top: 10px;
+}
+
+.container .team-member .team-image{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+
+}
+
+.container a{
+    margin:10px;
+    color:#142843;
+    border: 2px solid #142843 ;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.container a:hover{
+    background-color:#142843 ;
+    color:#f8f1f1;
+}
+
+.container .team-member .team-image img{
+    height: 150px;
+    width:150px;
+    border-radius: 100%;
+    border: 10px solid #f8f1f1;
+    position: absolute;
+    top:-50px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+main h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #142843;
+    font-family: 'Lobster', cursive;;
+    font-size: 40px;
+    
+}
+h1::after{
+    content: "";
+    height: 3px;
+    width: 150px;
+    background-color: #142843;
+    margin: 10px auto;
+    display: block;
+}
+
+#doc{
+text-decoration: none;
+position: absolute;
+bottom:120px;
+left:20%;
+}
+#doc :hover{
+    color:#05795c ;
+}
+/************************************/
