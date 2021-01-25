@@ -2,7 +2,18 @@
 /*font-family: 'JetBrains Mono', monospace;*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 /*font-family: 'Lobster', cursive;*/
+
+html{
+    height:190%;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 body{
+min-height: 100%;
+min-width: 100%;
 position: relative;
 background: #9AD3BC;
 background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
@@ -200,7 +211,7 @@ h1::after{
 #doc{
 text-decoration: none;
 position: absolute;
-bottom:120px;
+bottom:130px;
 left:20%;
 }
 #doc :hover{

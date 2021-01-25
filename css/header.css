@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
 /*font-family: 'JetBrains Mono', monospace;*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* font-family: 'Lobster', cursive;
+=======
 /*font-family: 'Lobster', cursive;*/
+
 body{
 position: relative;
 background: #9AD3BC;
 background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
 background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
 background: linear-gradient(to bottom left, #9AD3BC, #F8F1F1);
-}
+
+} 
+
+
 
 header{
 height: 100px;
@@ -86,6 +93,7 @@ footer h2{
     color: #f8f1f1;
     font-size: 15px;
     position: absolute;
+
     left: 45%;
     bottom: 15px; 
 }
@@ -106,4 +114,8 @@ footer h2{
 .footer-icons i:hover{
 background-color:#142843;
 color: #F8F1F1;
+
 }
+
+
+

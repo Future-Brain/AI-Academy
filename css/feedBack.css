@@ -1,0 +1,18 @@
+
+#feedBack {
+    text-align: center;
+}
+#studentFeedBack{
+    margin-bottom: -30px;
+}
+section{
+    border: 2px solid royalblue;
+    background-color: darkblue;
+    color: whitesmoke;
+    border-radius: 10px;
+    width: 100%;
+   margin-bottom: 10px;
+}
+main {
+    height: 100%;
+}
