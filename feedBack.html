@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/feedBack.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-.png" alt="logo-">
+        <h2>AI-Academy</h2>
+        <h4>Artificial Intelligence Academy</h4>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="feedBack.html">Feedback</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <main id="feedBackMain">
+        <div class="robot-img">
+            <img src="/img/feedback.img/clip-logistic-robot-1.png" class="robot">
+        </div>
+
+        <div class="form-container">
+            <form id="feedBackForm">
+                <fieldset>
+                    <h2>Give us your feedback</h2>
+
+                    <div class="user-input">
+                        <span> Full Name: </span>
+                        <input type="text" name="studentName" id="studentName" required placeholder="Enter your name">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="user-input">
+                        <span>E-mail</span>
+                        <input type="text" name="e-mail" required placeholder="Enter address">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+
+                    <div class="user-input">
+                        <span>Choose Your Course:</span>
+                        <select name="course" id="course" required>
+                            <option value="course1">course1</option>
+                            <option value="course2">course2</option>
+                            <option value="course3">course3</option>
+                            <option value="course4">course4</option>
+                            <option value="course5">course5</option>
+                        </select>
+                    </div>
+
+                    <textarea name="studentFeedBack" id="studentFeedBack" cols="30" rows="10" required
+                        placeholder="Feel free to tell us about your opinion"></textarea>
+
+                    <div class="sub-button">
+                        <input type="submit" value="submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        
+        <div id="feedBackDiv">
+            <section>
+                <h3>Hossam I took course1 course</h3>
+                <h4>It was really useful and helpful</h4>
+            </section>
+            <section>
+                <h3>Hossam I took course1 course</h3>
+                <h4>It was really useful and helpful</h4>
+            </section>
+            <section>
+                <h3>Hossam I took course1 course</h3>
+                <h4>It was really useful and helpful</h4>
+            </section>
+            <section>
+                <h3>Hossam I took course1 course</h3>
+                <h4>It was really useful and helpful</h4>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <h2>copyright© 2021</h2>
+        <div class="footer-icons">
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-youtube-play"></i></a>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="js/feedBack.js"></script>
+</body>
+
+</html>

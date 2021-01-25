@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+/*font-family: 'JetBrains Mono', monospace;*/
+
+
+html{
+    height:190%;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body{
+min-height: 100%;
+min-width: 100%;
+position: relative;
+background: #9AD3BC;
+background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
+background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
+background: linear-gradient(to bottom left, #9AD3BC, #F8F1F1);
+}
+
+header{
+height: 100px;
+width: 100%;
+
+background: #17C89A;
+background: -webkit-linear-gradient(right, #17C89A, #142843);
+background: -moz-linear-gradient(right, #17C89A, #142843);
+background: linear-gradient(to left, #17C89A, #142843);
+}
+ 
+header img{
+    height: 60px;
+    width: 90px;
+    position: absolute;
+    top:15px;
+    left: 30px;
+}
+
+header h2{
+    font-family: 'JetBrains Mono', monospace;
+    color: #f8f1f1;
+    font-size: 34px;
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+
+header h4{
+    color:#f8f1f1 ;
+    position: absolute;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    top:65px;
+    left:120px
+}
+
+
+header a{
+color:  #f8f1f1;
+text-decoration: none;
+margin: 6px;
+font-size: 20px;
+font-family: 'JetBrains Mono', monospace;
+padding: 10px;
+} 
+
+ header a:hover{
+    background-color: #f8f1f1;
+    color:#142843 ;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+nav{
+    position: absolute;
+    left:56%;
+    top:40px ;  
+}
+
+footer{
+height: 100px;
+width: 100%;
+background: #17C89A;
+background: -webkit-linear-gradient(right, #17C89A, #142843);
+background: -moz-linear-gradient(right, #17C89A, #142843);
+background: linear-gradient(to left, #17C89A, #142843);
+
+
+}
+
+footer h2{
+    font-family: 'JetBrains Mono', monospace;
+    color: #f8f1f1;
+    font-size: 15px;
+    position: absolute;
+    left: 45%;
+    bottom: 15px; 
+}
+
+.footer-icons i{
+    background-color:#f8f1f1 ;
+    border-radius: 80%;
+    color: #05795c;
+    padding: 10px;  
+    margin: 5px 10px 5px 5px;
+}
+
+.footer-icons{
+    position: relative;
+    left: 42%;
+    top:20%;
+}
+.footer-icons i:hover{
+background-color:#142843;
+color: #F8F1F1;
+}
+/*---------------------------------*/
+main{
+    height: 1000px;
+    margin-bottom: -50px;
+}
+.robot{
+    height: 600px;
+    width:600px;
+}
+    
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    background-color:#F8F1F1 ;
+    display: inline-block;
+    padding: 25px 25px;
+    height: 490px;
+    width: 410px;
+    position: relative;
+    left:53%;
+    bottom:53%;
+}
+.form-container h2{
+    padding: 10px 0px;
+    font-size:30px;
+    font-weight: bold;
+    color:#142843;
+    text-align: center;
+    margin: 5px;
+}
+
+.form-container .user-input{
+position: relative;
+}
+
+.form-container input, #course{
+    height:30px ;
+    width:100%;
+    margin: 4px 0px;
+    border-radius: 3px;
+    border: 1px solid #F8F1F1;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.form-container i{
+    position: absolute;
+    font-size: 20px;
+    top:50%;
+    right: 10px;
+    transform: translateY(-5%);
+    color: #05795c;
+}
+
+#studentFeedBack{
+    margin: 4px 0px;
+    border-radius: 3px;
+    border: 1px solid #F8F1F1;
+    font-size: 15px;
+    padding:5px;
+    width:100%
+}
