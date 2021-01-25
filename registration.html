@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign in AI-Academy</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/registration.css">
+    <!-- <link rel="stylesheet" href="css/registration.css"> -->
 </head>
 
 <body>
@@ -16,10 +16,10 @@
             <h2>AI-Academy</h2>
             <h4>Artificial Intelligence Academy</h4>
             <nav>
-                <a href="" id="a1">Home</a>
-                <a href="" id="a2">Courses</a>
-                <a href="" id="a3">Feedback</a>
-                <a href="" id="a4">About Us</a>
+                <a href="" >Home</a>
+                <a href="" >Courses</a>
+                <a href="" >Feedback</a>
+                <a href="">About Us</a>
             </nav>
         </header>
 
@@ -28,23 +28,38 @@
             <div id="formdiv">
                 <h1>Register Now:</h1>
                 <form action="" id="signUp">
-                    <label for="name">Name:</label> <input type="text" required id="name"><br>
-                    <label for="age">Age:</label> <input type="number" required min="18" id="age"><br>
-                    <label for="email">Email:</label> <input type="text" required id="email"><br>
-                    <label for="location">Country:</label> <input type="text" required id="location">
-                    <input type="submit">
-               
+                    <label for="name">Name:</label> <input type="text" required name="name"><br>
+                    <label for="age">Age:</label> <input type="number" required min="18" name="age"><br>
+                    <label for="email">Email:</label> <input type="text" required name="email"><br>
+                    <label for="pass">password:</label> <input type="password" required name="pass"><br>
+                    <label for="course">Course:</label> <select name="course" name="course">
+                        <option value="">Artificial Intelligence for Finance, Accounting & Auditing</option>
+                        <option value="">Introduction to Artificial Intelligence  </option>                 
+                        <option value="">Artificial Intelligence for Business      </option>
+                        <option value=""> Artificial Intelligence Masterclass</option>
+                        <option value="">Advanced AI For Games with Goal-Oriented Action Planning     </option>
+                   
+                    </select>
+                    <input type="submit" name="sub" value="submit">
+
                 </form>
-  
-  <div id="sign">
-      <form action="" id="pswf">
-          <fieldset>if you are already Registered write your password:</fieldset>
-    <label for="psw"></label> <input type="password" name="pass" id="psw"><br></form>
-    <input type="submit" name="sub" id="sub">
-  </div>
+
+                <!-- <div id="sign">
+                    <form action="" id="pswf">
+                        <fieldset>if you are already Registered write your password:</fieldset>
+                        <label for="psw"></label> <input type="password" name="pass" id="psw"><br>
+                    </form>
+                    <input type="submit" name="sub" id="sub">
+                </div> -->
         </main>
         <footer>
             <h2>copyright© 2021</h2>
+            <div class="footer-icons">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-youtube-play"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
         </footer>
         <script src="JS/registration.js"></script>
 </body>
