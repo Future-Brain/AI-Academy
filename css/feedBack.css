@@ -141,7 +141,7 @@ main{
 .form-container{
     display: flex;
     justify-content: center;
-    background-color:#F8F1F1 ;
+    background-color:#ddd ;
     display: inline-block;
     padding: 25px 25px;
     height: 470px;
@@ -200,7 +200,7 @@ input, option,#course{
 form .sub-button{
     margin-top: 5px;
     border: none;
-    background-color: #05795c;
+    background-color: #04377a;
     padding-bottom:5%;
     width: 100%;
     font-size: 22px;

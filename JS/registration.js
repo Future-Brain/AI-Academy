@@ -9,7 +9,7 @@ function signin(event) {
     var studentPass = event.target.pass.value;
     var studentName = event.target.name.value;
     var studentAge = event.target.age.value;
-    var studentCourse = event.target.course.value;
+    // var studentCourse = event.target.course.value;
     var studentEmail = event.target.email.value;
   
     if(localStorage.getItem(studentName) !==null ){
@@ -20,13 +20,13 @@ function signin(event) {
     
     if(localStorage.length===0){
      
-        localStorage.setItem(studentName, JSON.stringify([ studentEmail, studentCourse, studentAge, studentPass]));
-        window.open(studentCourse+'.html','_self');
+        localStorage.setItem(studentName, JSON.stringify([ studentEmail, studentAge, studentPass]));
+        window.open('login.html','_self');
     }
         if(check===true)
       {  
-        localStorage.setItem(studentName, JSON.stringify([ studentEmail, studentCourse, studentAge, studentPass]));
-        window.open(studentCourse+'.html','_self');
-         } 
+        localStorage.setItem(studentName, JSON.stringify([ studentEmail, studentAge, studentPass]));
+        window.open('login.html','_self');
+         }
     }
-   
+
