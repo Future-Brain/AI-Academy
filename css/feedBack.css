@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
 /*font-family: 'JetBrains Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Handlee&display=swap');
+/* font-family: 'Caveat', cursive;
+font-family: 'Handlee', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+/* font-family: 'Forum', cursive; */
+
 
 
 html{
@@ -11,7 +17,7 @@ html{
 }
 
 body{
-min-height: 100%;
+min-height: 140%;
 min-width: 100%;
 position: relative;
 background: #9AD3BC;
@@ -82,6 +88,8 @@ nav{
 footer{
 height: 100px;
 width: 100%;
+position: absolute;
+bottom: -90px;
 background: #17C89A;
 background: -webkit-linear-gradient(right, #17C89A, #142843);
 background: -moz-linear-gradient(right, #17C89A, #142843);
@@ -119,13 +127,13 @@ color: #F8F1F1;
 /*---------------------------------*/
 main{
     height: 1000px;
-    margin-bottom: -50px;
+    min-width: 100%;
 }
 .robot{
     height: 600px;
     width:600px;
 }
-    
+
 
 .form-container{
     display: flex;
@@ -133,11 +141,11 @@ main{
     background-color:#F8F1F1 ;
     display: inline-block;
     padding: 25px 25px;
-    height: 490px;
+    height: 470px;
     width: 410px;
-    position: relative;
+    position: relative; 
     left:53%;
-    bottom:53%;
+    bottom:55%;
 }
 .form-container h2{
     padding: 10px 0px;
@@ -146,13 +154,15 @@ main{
     color:#142843;
     text-align: center;
     margin: 5px;
+    
+
 }
 
 .form-container .user-input{
 position: relative;
 }
 
-.form-container input, #course{
+input, option,#course{
     height:30px ;
     width:100%;
     margin: 4px 0px;
@@ -160,6 +170,8 @@ position: relative;
     border: 1px solid #F8F1F1;
     font-size: 15px;
     padding: 5px;
+    font-family: 'Forum', cursive;
+
 }
 
 .form-container i{
@@ -168,14 +180,77 @@ position: relative;
     top:50%;
     right: 10px;
     transform: translateY(-5%);
-    color: #05795c;
+    color: #747c7a;
 }
 
 #studentFeedBack{
     margin: 4px 0px;
     border-radius: 3px;
     border: 1px solid #F8F1F1;
-    font-size: 15px;
+    font-size: 17px;
     padding:5px;
-    width:100%
+    width:100%;
+    font-family: 'Forum', cursive;
+
+}
+
+form .sub-button{
+    margin-top: 5px;
+    border: none;
+    background-color: #05795c;
+    padding-bottom:5%;
+    width: 100%;
+    font-size: 22px;
+    color: #F8F1F1;
+    font-family: 'Forum', cursive;
+}
+
+#feedBackDiv{
+font-family: 'Caveat', cursive;
+font-family: 'Handlee', cursive;
+}
+ input:focus,#course:focus,textarea:focus{
+border: none;
+color:#05795c;
+transition: all 0.3s ease;
+} 
+
+form input:focus::placeholder,form textarea:focus::placeholder{
+padding-left: 4px;    
+color:#05795c;
+transition: all 0.3s ease;
+font-weight: bold;
+}
+    
+#feedBackDiv{
+    width: 1200px;
+    height: 600px;
+    justify-content: center;
+    position: absolute;
+    bottom: 300px;
+    left: 35px;
+    display:inline-block ;
+    display: flex;
+     flex-wrap: wrap;
+}
+
+.comment h5{
+    background-color: #f8f1f1;
+
+    font-size: 20px;
+    width: 500px;
+    height: 200px;
+    border: 1.5px solid #142843;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+.comment h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.comment h4{
+height: 10px;
+width:500px;
 }
