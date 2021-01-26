@@ -1,82 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
 /*font-family: 'JetBrains Mono', monospace;*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-body{
-    position: relative;
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
-
-header{
-height: 100px;
-width: 100%;
-
-background: #17C89A;
-background: -webkit-linear-gradient(right, #17C89A, #142843);
-background: -moz-linear-gradient(right, #17C89A, #142843);
-background: linear-gradient(to left, #17C89A, #142843);
-}
- 
-header img{
-    height: 70px;
-    width: 100px;
-    position: absolute;
-    top:15px;
-    left: 10px;
-}
-
-header h2{
-    font-family: 'JetBrains Mono', monospace;
-    color: #f8f1f1;
-    font-size: 34px;
-    position: absolute;
-    left: 110px;
-    top: 30px;
-}
-
-header h4{
-    color:#f8f1f1 ;
-    position: absolute;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
-    top:70px;
-    left:110px
-}
-
-
-header a{
-color:  #f8f1f1;
-text-decoration: none;
-margin: 10px;
-font-size: 20px;
-font-family: 'JetBrains Mono', monospace;
-padding: 10px;
+ body{
+    min-height: 100%;
+    min-width: 100%;
 } 
+main {
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f2f2f2;
+    font-family: 'Poppins',sans-serif;
 
-header a:hover{
-    background-color: #f8f1f1;
-    color:#142843 ;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 
-nav{
-    position: absolute;
-    left:670px;
-    top:40px ;  
-}
-body{
-    background: #f8f1f1;
-  
-}
-
-
-main{
-
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr ;
-    gap:30px ;
-    margin: 10px 0;
-}
 main h1{
     grid-column: 1 / -1;
     
@@ -95,113 +43,158 @@ h1::after{
     margin: 10px auto;
     display: block;
 }
-
-.course{
-    background-color: #f8f1f1;
-    color:#19456B;
-
-
-    height: 600px;
-    grid-template-columns:1/2 ;
-    margin:30px 30px;
-    border-radius: 20px;
-    box-shadow:0 0px 8px 3px  #19456B;
-    position: relative;
-    overflow: hidden;
+ .card{
+   position: relative;
+   background: #fff;
+   width: 400px;
+   height: 510px;
+   margin-top: 10px;
+   margin-bottom: 20px;
 
 }
-.course:hover{
-    background-color: #16c79a;
-    color: #f8f1f1;
-    box-shadow:0 0px 12px 3px  #16c79a;
-
-
-    
-
-
-}
-.priceBox{
-
-
+.card .content{
     position: absolute;
-    bottom: 5%;
-    left:  5%;
-    width: 60%;
-    height:10%;
-   
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-
+    top: 250px;
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
 }
-#register{
-    background-color: #16c79a;
-
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-    width: 80px;
-    height:30px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-}
-main a{
+.card .content a{
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 10px 20px;
     text-decoration: none;
-    color:#f8f1f1 ;
+    border: 2px solid #262626;
+    color: #262626;
+    font-weight: 600;
 
 }
 
-.course:hover > #register {
-     background-color: #19456B;
-
-  }
-
-
-.course h2{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 800;
-    font-family: 'Times New Roman', Times, serif;
-
-
+.card .sliderText{
+    position: absolute;
+    width: 90%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(23, 200, 154, 0);
+    background: -webkit-linear-gradient(right, #17C89A, #142843);
+    background: -moz-linear-gradient(right, #17C89A, #142843);
+    background: linear-gradient(to left, #17C89A, #142843);
+    padding: 10px;
+    margin: 10px;
+}
+.card .sliderText h3{
+    color: #f8f1f1;
+    font-size: 2em;
+}
+.swiper-wrapper{
+    width: 450px;
 }
 
-.course img{
-    height:300px ;
-    width: 96%;
-
-    margin: 10px 10px;
-
-border-radius: 20px;
-}
-.course p{
-
-    margin:10px 10px;
-
-}
-.course ul{
-    margin: 0 10px;
-}
- li::before {content: "•"; margin: 3px;}
 
 
-footer{
-    height: 80px;
-    width: 100%;
 
-    background: #17C89A;
+
+header{
+height: 100px;
+width: 100%;
+
+background: #17C89A;
 background: -webkit-linear-gradient(right, #17C89A, #142843);
 background: -moz-linear-gradient(right, #17C89A, #142843);
 background: linear-gradient(to left, #17C89A, #142843);
+}
+ 
+header img{
+    height: 60px;
+    width: 90px;
+    position: absolute;
+    top:15px;
+    left: 30px;
+}
+
+header h2{
+    font-family: 'JetBrains Mono', monospace;
+    color: #f8f1f1;
+    font-size: 34px;
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+
+header h4{
+    color:#f8f1f1 ;
+    position: absolute;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    top:65px;
+    left:120px
+}
+
+
+header a{
+color:  #f8f1f1;
+text-decoration: none;
+margin: 6px;
+font-size: 20px;
+font-family: 'JetBrains Mono', monospace;
+padding: 10px;
+} 
+
+ header a:hover{
+    background-color: #f8f1f1;
+    color:#142843 ;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+nav{
+    position: absolute;
+    left:56%;
+    top:40px ;  
+}
+
+footer{
+height: 100px;
+width: 100%;
+position: relative;
+background: #17C89A;
+background: -webkit-linear-gradient(right, #17C89A, #142843);
+background: -moz-linear-gradient(right, #17C89A, #142843);
+background: linear-gradient(to left, #17C89A, #142843);
+
+
 }
 
 footer h2{
     font-family: 'JetBrains Mono', monospace;
     color: #f8f1f1;
-    font-size: 25px;
+    font-size: 15px;
     position: absolute;
-    left: 470px;
-    bottom: 25px; 
+
+    left: 45%;
+    bottom: 15px; 
 }
+
+.footer-icons i{
+    background-color:#f8f1f1 ;
+    border-radius: 80%;
+    color: #05795c;
+    padding: 10px;  
+    margin: 5px 10px 5px 5px;
+}
+
+.footer-icons{
+    position: relative;
+    left: 42%;
+    top:20%;
+}
+.footer-icons i:hover{
+background-color:#142843;
+color: #F8F1F1;
+
+}
+
+
+
