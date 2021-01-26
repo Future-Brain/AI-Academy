@@ -4,16 +4,32 @@ var login = document.getElementById('log');
 var checkbox = document.getElementById('courses');
 var information = document.getElementById('info');
 var studentCourses=document.createElement('tr');
+var result = document.getElementById('result');
 var checkedCourse = [];
 var table = document.createElement('table');
 login.addEventListener('submit', log);
 function log(event) {
     event.preventDefault();
+   
     var userName = event.target.userName.value;
     var pass = event.target.pass.value;
     var userEmail = event.target.email.value;
     if (JSON.parse(localStorage.getItem(userName))[0] == userEmail && JSON.parse(localStorage.getItem(userName))[2] == pass) {
         login.remove();
+        if(localStorage.getItem('your courses: ')){checkbox.remove();
+        button.remove();
+         
+
+
+for (let i= 0; i < localStorage.getItem('your courses: ').length; i++) {
+    var list = document.createElement('li');
+    
+    list.textContent= JSON.parse (localStorage.getItem('your courses: '))[i];
+    result.appendChild(list);
+    
+}
+       
+    }
 button.style.opacity=1;
        
         checkbox.style.display = 'block';
@@ -45,10 +61,7 @@ button.style.opacity=1;
                 console.log(checkedCourse);
                 localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
               
-            //  var coursesColumn= document.createElement('td');
-            //  coursesColumn.textContent= checkedCourse[0];
-            //  studentCourses.appendChild(coursesColumn);
-        
+            
             }
             if (checkedCourse.includes(event.target.name) && check1.checked === false) {
                 var removedCourse=  checkedCourse.indexOf(event.target.name);
@@ -65,11 +78,7 @@ button.style.opacity=1;
                 checkedCourse.push(event.target.name);
                 console.log(checkedCourse);
                 localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
-            
-                
-            // var coursesColumn= document.createElement('td');
-            // coursesColumn.textContent= checkedCourse[1];
-            // studentCourses.appendChild(coursesColumn);
+                   
         
             }
             if (checkedCourse.includes(event.target.name) && check2.checked === false) {
@@ -87,10 +96,7 @@ button.style.opacity=1;
                 checkedCourse.push(event.target.name);
               
                 localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
-                
-            // var coursesColumn= document.createElement('td');
-            // coursesColumn.textContent= checkedCourse[2];
-            // studentCourses.appendChild(coursesColumn);
+                 
         
             }
             if (checkedCourse.includes(event.target.name) && check3.checked === false) {
@@ -108,10 +114,7 @@ button.style.opacity=1;
                 checkedCourse.push(event.target.name);
                 console.log(checkedCourse);
                 localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
-                
-            // var coursesColumn= document.createElement('td');
-            // coursesColumn.textContent= checkedCourse[3];
-            // studentCourses.appendChild(coursesColumn);
+                      
         
             }
             if (checkedCourse.includes(event.target.name) && check4.checked === false) {
@@ -120,8 +123,7 @@ button.style.opacity=1;
                 localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
                 var coursesColumn= document.createElement('td');
                 coursesColumn.textContent= checkedCourse[3];
-            
-              
+                         
             }
         }
         var check5 = document.getElementById('check5');
@@ -133,10 +135,7 @@ button.style.opacity=1;
                 console.log(checkedCourse);
                 localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
 
-                // var coursesColumn= document.createElement('td');
-                // coursesColumn.textContent= checkedCourse[4];
-                // studentCourses.appendChild(coursesColumn);
-            
+              
             }
             if (checkedCourse.includes(event.target.name) && check5.checked === false) {
                 var removedCourse=  checkedCourse.indexOf(event.target.name);
@@ -152,29 +151,21 @@ button.style.opacity=1;
     }
 
    
-    
-  
-
-
-
     login.removeEventListener('submit', log)
 }
 
 function promp(){
-     
-   
+    
          if(localStorage.getItem('your courses: ') !==null){
              checkbox.style.display ='none';
              button.style.display='none';
             for (let i = 0; i < checkedCourse.length; i++) {
-               var firstCourse = document.createElement('td');
+               var firstCourse = document.createElement('li');
                firstCourse.textContent= checkedCourse[i];
-               studentCourses.appendChild(firstCourse);
+               result.appendChild(firstCourse);
 
-                
+            
             }
 
          }
        }
- 
-       
