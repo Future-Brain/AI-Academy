@@ -8,10 +8,7 @@ html{
     padding: 0px;
     overflow-x: hidden;
 }
- body{
-    min-height: 100%;
-    
-} 
+ 
 main {
     padding: 10px;
     height: 200px;
