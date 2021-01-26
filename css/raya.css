@@ -82,13 +82,13 @@ header{
 .content{
     color: #fbfcfd;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translate(-90%);
     z-index: 2;
 }
 .content h3{
-    font-size: 60px;
+    font-size: 50px;
     margin: 5px 0 40px;
     line-height: 80px;
 }
@@ -119,7 +119,7 @@ transition: 0.2s;
 }
 
 #button:hover{
-color: #7A7FBA;
+color:#142843;
 background: #11C37C; 
 box-shadow: 0 0 10px #11C37C,0 0 40px #11C37C,0 0 80px #11C37C;
 transition-delay: 1s;
