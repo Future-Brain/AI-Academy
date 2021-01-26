@@ -21,7 +21,7 @@ function signin(event) {
     if(localStorage.length===0){
      
         localStorage.setItem(studentName, JSON.stringify([ studentEmail, studentAge, studentPass]));
-        window.open(studentCourse+'.html','_self');
+        window.open('login.html','_self');
     }
         if(check===true)
       {  
