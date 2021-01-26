@@ -9,7 +9,7 @@ font-family: 'Handlee', cursive; */
 
 
 html{
-    height:190%;
+    height:300%;
     width:100%;
     margin: 0px;
     padding: 0px;
@@ -17,7 +17,7 @@ html{
 }
 
 body{
-min-height: 140%;
+min-height: 100%;
 min-width: 100%;
 position: relative;
 background: #9AD3BC;
@@ -132,6 +132,8 @@ main{
 .robot{
     height: 600px;
     width:600px;
+    position: relative;
+    top: 30px;
 }
 
 
@@ -145,7 +147,7 @@ main{
     width: 410px;
     position: relative; 
     left:53%;
-    bottom:55%;
+    bottom:53%;
 }
 .form-container h2{
     padding: 10px 0px;
@@ -224,33 +226,39 @@ font-weight: bold;
     
 #feedBackDiv{
     width: 1200px;
-    height: 600px;
+    height: 200px;
     justify-content: center;
     position: absolute;
-    bottom: 300px;
+    bottom: 800px;
     left: 35px;
     display:inline-block ;
     display: flex;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
+     
+}
+.comment{
+    background-color: #f8f1f1;
+    padding: 10px;
+    margin: 10px;
 }
 
-.comment h5{
-    background-color: #f8f1f1;
-
-    font-size: 20px;
-    width: 500px;
-    height: 200px;
-    border: 1.5px solid #142843;
-    padding: 10px;
-    margin: 5px;
+.comment h5{  
+font-size: 20px;
+width: 300px;
+height: 140px;
+padding: 10px;
+margin: 3px;
     
 }
 
 .comment h3{
-    font-size: 24px;
-    font-weight: bold;
+font-size: 24px;
+font-weight: bold;
 }
 .comment h4{
-height: 10px;
-width:500px;
+
+padding: 10px;
+margin: 5px;
+height: 15px;
+width:300px;
 }
