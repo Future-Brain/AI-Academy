@@ -105,7 +105,7 @@ var check4=document.getElementById('check4');
 check4.addEventListener('change',click4);
 
 function click4(event){
-if(check3.checked===true){
+if(check4.checked===true){
 var localStorItem=localStorage.getItem('courses for'+userName);
 localStorage.setItem('courses for'+userName,[localStorItem,event.target.name]);
 }
@@ -115,7 +115,7 @@ var check5=document.getElementById('check5');
 check5.addEventListener('change',click5);
 
 function click5(event){
-if(check3.checked===true){
+if(check5.checked===true){
 var localStorItem=localStorage.getItem('courses for'+userName);
 localStorage.setItem('courses for'+userName,[localStorItem,event.target.name]);
 }
