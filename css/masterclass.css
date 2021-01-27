@@ -2,16 +2,16 @@
 /* font-family: 'Noto Sans JP', sans-serif; */
 
  html{
-    height: 300%;
+   
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-}  
+} 
 
 
 body{
     /* min-height: 100%; */
-    position: relative;
+    
     background: #9AD3BC;
     background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
     background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
@@ -19,7 +19,7 @@ body{
     
     } 
 
-
+    
 .info img{
 height: 410px;
 width:410px;
@@ -32,22 +32,10 @@ top:160px
 .info h1{
     position: absolute;
     font-size: 40px;
-    top:250px;
+    top:320px;
     width: 350px;
     left: 190px;
     color:  #142843;
-}
-
-.info a{
-    position: absolute;
-    font-size: 20px;
-    top:36%;
-    left:16%;
-    color:#f8f1f1;
-    background-color: #fa1616;
-    border-radius: 5%;
-    padding:10px ;
-    text-decoration: none;
 }
 /* ---------------------------- */
 .container{
@@ -124,7 +112,7 @@ left:0;
 .learn{
     position: relative;
     left: 7%;
-    top:420px;
+   margin-top: 3cm;
     width:1300px
 }
 
@@ -142,13 +130,17 @@ left:0;
 .pay{
     position: relative;
     left:50%;
-    top:850px;
+    top:350px;
 }
 
-.details .text4{
+.pay img{
+    height: 320px;
+    width:320px;
+}
+.text4{
     position:relative;
     left:17%;
-    top:600px;
+    top:100px;
     font-size: 25px;
     font-family: 'Noto Sans JP', sans-serif;
     line-height:1.5em
@@ -207,16 +199,17 @@ header{
     
     nav{
         position: absolute;
-        left:48%;
+        left:56%;
         top:40px ;  
     }
+    
     
     
     footer{
     height: 100px;
     width: 100%;
     position: absolute;
-    bottom:-1200px;
+   top:300%;
     background: #17C89A;
     background: -webkit-linear-gradient(right, #17C89A, #142843);
     background: -moz-linear-gradient(right, #17C89A, #142843);
@@ -253,7 +246,5 @@ header{
     color: #F8F1F1;
     
     }
-    
-    
     
     

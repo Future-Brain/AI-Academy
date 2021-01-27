@@ -2,7 +2,7 @@
 /* font-family: 'Noto Sans JP', sans-serif; */
 
  html{
-    height:fit-content;
+   
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -11,7 +11,7 @@
 
 body{
     /* min-height: 100%; */
-    position: relative;
+    
     background: #9AD3BC;
     background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
     background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
@@ -19,10 +19,7 @@ body{
     
     } 
 
-    main{
-        height: fit-content;
-    }
-
+    
 .info img{
 height: 410px;
 width:410px;
@@ -219,11 +216,12 @@ header{
     }
     
     
+    
     footer{
     height: 100px;
     width: 100%;
     position: absolute;
-    bottom:-1200px;
+   top:300%;
     background: #17C89A;
     background: -webkit-linear-gradient(right, #17C89A, #142843);
     background: -moz-linear-gradient(right, #17C89A, #142843);
@@ -260,7 +258,5 @@ header{
     color: #F8F1F1;
     
     }
-    
-    
     
     
