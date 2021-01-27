@@ -2,7 +2,7 @@
 /* font-family: 'Lora', serif; */
 
 html{
-    height:190%;
+    /* height:120%; */
     width:100%;
     margin: 0px;
     padding: 0px;
@@ -79,6 +79,7 @@ nav{
 }
 
 footer{
+    bottom: 0;
 height: 100px;
 width: 100%;
 position: relative;
