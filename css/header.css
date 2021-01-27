@@ -80,6 +80,7 @@ footer{
 height: 100px;
 width: 100%;
 position: relative;
+margin-top: auto;
 background: #17C89A;
 background: -webkit-linear-gradient(right, #17C89A, #142843);
 background: -moz-linear-gradient(right, #17C89A, #142843);
