@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+ html{
+    height: 400%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+} 
+
+
+body{
+    /* min-height: 100%; */
+    position: relative;
+    background: #9AD3BC;
+    background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
+    background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
+    background: linear-gradient(to bottom left, #9AD3BC, #F8F1F1);
+    
+    } 
+
+
+.info img{
+height: 410px;
+width:410px;
+position: absolute;
+border-radius: 5px;
+left:50%;
+top:160px
+}
+
+.info h1{
+    position: absolute;
+    font-size: 40px;
+    top:320px;
+    width: 350px;
+    left: 190px;
+    color:  #142843;
+}
+/* ---------------------------- */
+.container{
+position: relative;
+top:350px;
+left:0;
+}
+
+.container img{
+    height:400px;
+    width: 400px;
+}
+
+
+
+.des{
+    position: relative;
+    left: 50px;
+    top:40px
+}
+
+.des img{
+    height: 600px;
+    width: 600px;
+    position: relative;
+    top:40%;
+}
+
+.text1{
+    position: absolute;
+    top:40%;
+    width:500px;
+    left: 45%;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height:1.5em
+}
+
+.text1 h2{
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+.techniques img{
+    position: absolute;
+    top:50%;
+    height: 450px;
+    width:550px;
+    left:48%;
+}
+
+.techniques .text2{
+    position: absolute;
+    top:65%;
+    width:500px;
+    left: 8%;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height:1.5em
+}
+
+.text2 h2{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.learn img{
+    height: 350px;
+    width:500px;
+    position: absolute;
+}
+
+.learn{
+    position: relative;
+    left: 7%;
+    top:420px;
+    width:1300px
+}
+
+.learn .text3{
+    position: absolute;
+    left: 45%;
+    top:100px;
+    width:400px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height:1.2em
+}
+
+
+.pay{
+    position: relative;
+    left:50%;
+    top:850px;
+}
+
+.details .text4{
+    position:relative;
+    left:17%;
+    top:600px;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height:1.5em
+}
+header{
+    height: 100px;
+    width: 100%;
+    background: #17C89A;
+    background: -webkit-linear-gradient(right, #17C89A, #142843);
+    background: -moz-linear-gradient(right, #17C89A, #142843);
+    background: linear-gradient(to left, #17C89A, #142843);
+    }
+     
+    header img{
+        height: 60px;
+        width: 90px;
+        position: absolute;
+        top:15px;
+        left: 30px;
+    }
+    
+    header h2{
+        font-family: 'JetBrains Mono', monospace;
+        color: #f8f1f1;
+        font-size: 34px;
+        position: absolute;
+        left: 120px;
+        top: 25px;
+    }
+    
+    header h4{
+        color:#f8f1f1 ;
+        position: absolute;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        top:65px;
+        left:120px
+    }
+    
+    
+    header a{
+    color:  #f8f1f1;
+    text-decoration: none;
+    margin: 6px;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 10px;
+    } 
+    
+     header a:hover{
+        background-color: #f8f1f1;
+        color:#142843 ;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    nav{
+        position: absolute;
+        left:56%;
+        top:40px ;  
+    }
+    
+    
+    footer{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom:-1200px;
+    background: #17C89A;
+    background: -webkit-linear-gradient(right, #17C89A, #142843);
+    background: -moz-linear-gradient(right, #17C89A, #142843);
+    background: linear-gradient(to left, #17C89A, #142843);
+    
+    
+    }
+    
+    footer h2{
+        font-family: 'JetBrains Mono', monospace;
+        color: #f8f1f1;
+        font-size: 15px;
+        position: absolute;
+    
+        left: 45%;
+        bottom: 15px; 
+    }
+    
+    .footer-icons i{
+        background-color:#f8f1f1 ;
+        border-radius: 80%;
+        color: #05795c;
+        padding: 10px;  
+        margin: 5px 10px 5px 5px;
+    }
+    
+    .footer-icons{
+        position: relative;
+        left: 42%;
+        top:20%;
+    }
+    .footer-icons i:hover{
+    background-color:#142843;
+    color: #F8F1F1;
+    
+    }
+    
+    
+    
+    
