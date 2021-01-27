@@ -6,6 +6,9 @@ var information = document.getElementById('info');
 var studentCourses=document.createElement('tr');
 var result = document.getElementById('result');
 var checkedCourse = [];
+var nameUser;
+var lastList = document.getElementById('last');
+var timeInfLoc=false;
 var table = document.createElement('table');
 login.addEventListener('submit', log);
 function log(event) {
@@ -14,17 +17,24 @@ function log(event) {
     var userName = event.target.userName.value;
     var pass = event.target.pass.value;
     var userEmail = event.target.email.value;
+    nameUser=userName;
+    if (localStorage.getItem(userName)===null){
+        alert('not regestered');
+        window.open('login.html','_self');
+    }
+
+   
     if (JSON.parse(localStorage.getItem(userName))[0] == userEmail && JSON.parse(localStorage.getItem(userName))[2] == pass) {
         login.remove();
-        if(localStorage.getItem('your courses: ')){checkbox.remove();
+        if(localStorage.getItem(nameUser +' courses: ')){checkbox.remove();
         button.remove();
          
+timeInfLoc=true;
 
-
-for (let i= 0; i < localStorage.getItem('your courses: ').length; i++) {
+for (let i= 0; i < localStorage.getItem(nameUser+ ' courses: ').length; i++) {
     var list = document.createElement('li');
     
-    list.textContent= JSON.parse (localStorage.getItem('your courses: '))[i];
+    list.textContent= JSON.parse (localStorage.getItem(nameUser +' courses: '))[i];
     result.appendChild(list);
     
 }
@@ -59,14 +69,14 @@ button.style.opacity=1;
             if (check1.checked === true) {
                 checkedCourse.push(event.target.name);
                 console.log(checkedCourse);
-                localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
+                localStorage.setItem( userName+' courses: ', JSON.stringify(checkedCourse));
               
             
             }
             if (checkedCourse.includes(event.target.name) && check1.checked === false) {
                 var removedCourse=  checkedCourse.indexOf(event.target.name);
                 checkedCourse.splice(removedCourse,1);
-                localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
+                localStorage.setItem(userName+' courses: ', JSON.stringify(checkedCourse));
     
             }
         }
@@ -77,14 +87,14 @@ button.style.opacity=1;
             if (check2.checked === true) {
                 checkedCourse.push(event.target.name);
                 console.log(checkedCourse);
-                localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
+                localStorage.setItem(userName+' courses: ', JSON.stringify(checkedCourse));
                    
         
             }
             if (checkedCourse.includes(event.target.name) && check2.checked === false) {
               var removedCourse=  checkedCourse.indexOf(event.target.name);
                 checkedCourse.splice(removedCourse,1);
-                localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
+                localStorage.setItem(userName+' courses: ', JSON.stringify(checkedCourse));
                 check2.style.display='none';
             }
         }
@@ -95,14 +105,14 @@ button.style.opacity=1;
             if (check3.checked === true) {
                 checkedCourse.push(event.target.name);
               
-                localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
+                localStorage.setItem(userName+' courses: ', JSON.stringify(checkedCourse));
                  
         
             }
             if (checkedCourse.includes(event.target.name) && check3.checked === false) {
                 var removedCourse=  checkedCourse.indexOf(event.target.name);
                 checkedCourse.splice(removedCourse,1);
-                localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));}
+                localStorage.setItem(userName+' courses: ', JSON.stringify(checkedCourse));}
                 
         }
         var check4 = document.getElementById('check4');
@@ -113,7 +123,7 @@ button.style.opacity=1;
 
                 checkedCourse.push(event.target.name);
                 console.log(checkedCourse);
-                localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
+                localStorage.setItem(userName+' courses: ', JSON.stringify(checkedCourse));
                       
         
             }
@@ -133,32 +143,28 @@ button.style.opacity=1;
             if (check5.checked === true) {
                 checkedCourse.push(event.target.name);
                 console.log(checkedCourse);
-                localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
+                localStorage.setItem(userName+' courses: ', JSON.stringify(checkedCourse));
 
               
             }
             if (checkedCourse.includes(event.target.name) && check5.checked === false) {
                 var removedCourse=  checkedCourse.indexOf(event.target.name);
                 checkedCourse.splice(removedCourse,1);
-                localStorage.setItem('your courses: ', JSON.stringify(checkedCourse));
+                localStorage.setItem(userName+' courses: ', JSON.stringify(checkedCourse));
               
             }
         }
 
     }
-    else {
-        alert('unvalid');
-    }
-
    
     login.removeEventListener('submit', log)
 }
 
 function promp(){
     
-         if(localStorage.getItem('your courses: ') !==null){
-             checkbox.style.display ='none';
-             button.style.display='none';
+         if(localStorage.getItem(nameUser+' courses: ') !==null){
+             checkbox.remove();
+             button.remove();
             for (let i = 0; i < checkedCourse.length; i++) {
                var firstCourse = document.createElement('li');
                firstCourse.textContent= checkedCourse[i];
@@ -169,3 +175,11 @@ function promp(){
 
          }
        }
+      if (timeInfLoc===true){
+          for (let i = 0; i < JSON.parse(localStorage.getItem(nameUser+' courses: ')).length; i++) {
+              alert('hr');
+           
+            timeInfLoc=false;
+              
+          }
+      }
