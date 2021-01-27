@@ -29,13 +29,17 @@ main h1{
     font-weight: bold;
     letter-spacing: 2px;
     color: #142843;
+
     font-family: 'Lora', serif;
+
     font-size: 60px;
+    margin: 2%; 
+
 }
 h1::after{
     content: "";
     height: 3px;
-    width: 450px;
+    width: 250px;
     background-color: #142843;
     margin: 10px auto;
     display: block;
@@ -46,19 +50,20 @@ h1::after{
    background: #fff;
    width: 400px;
    height: 510px;
-   /* margin-top: 10px;
-   margin-bottom: 20px; */
-   margin: 10px;
+   /* margin-top: 10px;*/
+   margin-bottom: 15%; 
+   /* margin: 10px; */
    /* margin-right: 10px; */
    /* padding:-50px; */
    border-radius:10px ;
-   box-shadow: 10px 10px 5px grey;
+   box-shadow: 5px 5px 5px grey;
+   font-family: 'Poppins',sans-serif;
 
 
 }
 
 .card:hover{
-    box-shadow: 10px 10px 5px #17C89A;
+    box-shadow: 5px 5px 5px #17C89A;
 
 }
 
@@ -70,16 +75,23 @@ h1::after{
     box-sizing: border-box;
 }
 .card .content a{
+    background:#abebda;
+    border-radius: 5px;
+
     display: inline-block;
     margin: 10px 0 0;
     padding: 10px 20px;
     text-decoration: none;
-    border: 2px solid #262626;
+    border: 1px solid #262626;
     color: #262626;
     font-weight: 600;
 
 }
+.card .content a:hover{
+    background:#17C89A;
 
+
+}
 /* .card .sliderText{
     position: absolute;
     width: 90%;
@@ -98,6 +110,8 @@ h1::after{
     padding: 10px;
     margin-left: 5px;
     font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+
 }
 .swiper-wrapper{
     width: 450px;

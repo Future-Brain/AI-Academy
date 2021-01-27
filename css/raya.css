@@ -10,7 +10,7 @@ html{
     overflow-y: hidden;
 }
 body{
-    background-image: url(/img/Abd/new.png);
+    background-image: url(img/Abd/new.png);
     background-size: cover;
     background-position: center;
     position: relative;
