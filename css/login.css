@@ -91,3 +91,27 @@ background: linear-gradient(to left, #17C89A, #142843);
         bottom:5%;
         color: #142843;
     }
+    .log{
+        position: absolute;
+        left:3%;
+        width:115px;
+        height:50px;
+        background-color: #142843;
+        color: #F8F1F1;
+        padding: 7px;
+        border-radius: 5px;
+        
+    }
+    .reg{
+        position: relative;
+        left:50%;
+        bottom: 11%;
+        width:75px;
+        text-decoration: none;
+        background-color: #142843;
+        color: #F8F1F1;
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+    }
