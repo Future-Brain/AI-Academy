@@ -40,18 +40,22 @@ top:160px
     left: 190px;
     color:  #142843;
 }
+/* I did some change on the top and background-color */
+
 
 .info a{
     position: absolute;
     font-size: 20px;
-    top:36%;
+    top:65%;
     left:16%;
     color:#f8f1f1;
-    background-color: #fa1616;
+    background-color: #142843;
     border-radius: 5%;
     padding:10px ;
     text-decoration: none;
 }
+
+
 /* ---------------------------- */
 .container{
 position: relative;
