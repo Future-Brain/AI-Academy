@@ -11,13 +11,13 @@ html{
 }
  
 main {
-    padding: 10px;
+    padding-bottom: 100px;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: #f2f2f2;
     font-family: 'Poppins',sans-serif;
 
