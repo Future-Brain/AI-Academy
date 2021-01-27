@@ -33,7 +33,8 @@ var dataFromLocal = JSON.parse(localStorage.getItem('feedBack'));
 if (dataFromLocal) {
   for (var i = 0;i< dataFromLocal.length; i++) {
 
-    var JsData = new FeedBack(dataFromLocal[i].name+": ", dataFromLocal[i].course, dataFromLocal[i].feedBack);   JsData.render();
+    var JsData = new FeedBack(dataFromLocal[i].name+": ", dataFromLocal[i].course, dataFromLocal[i].feedBack);   
+    JsData.render();
   }
 }
 
@@ -51,8 +52,6 @@ function submitFun(event) {
   var newFeedBack = new FeedBack(studentNameVal, courseVal, feedBackVal);
   localStorage.setItem('feedBack', JSON.stringify(FeedBack.prototype.allFeedBack));
   newFeedBack.render();
-
-
-
+  window.open()
 }
 
