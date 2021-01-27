@@ -13,11 +13,10 @@ function signin(event) {
     var studentEmail = event.target.email.value;
   
     if(localStorage.getItem(studentName) !==null ){
-      alert('user name is already taken')
+      alert('user is already rigestred!!')
       check=false; 
       window.open('registration.html','_self')
   }
-
     
     if(localStorage.length===0){
      
