@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
-/* font-family: 'Noto Sans JP', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
 
  html{
     height:fit-content;
@@ -12,11 +12,12 @@
 body{
     /* min-height: 100%; */
     position: relative;
+    
     background: #9AD3BC;
     background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
     background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
     background: linear-gradient(to bottom left, #9AD3BC, #F8F1F1);
-    
+    background-repeat: no-repeat;
     } 
 
     main{
@@ -89,7 +90,7 @@ left:0;
     width:500px;
     left: 45%;
     font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.5em
 }
 
@@ -113,7 +114,7 @@ left:0;
     width:500px;
     left: 8%;
     font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.5em
 }
 
@@ -141,7 +142,7 @@ left:0;
     top:100px;
     width:400px;
     font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.2em
 }
 
@@ -161,7 +162,7 @@ left:0;
     left:17%;
     top:600px;
     font-size: 25px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.5em
 }
 header{
@@ -182,7 +183,7 @@ header{
     }
     
     header h2{
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'Lora', serif;
         color: #f8f1f1;
         font-size: 34px;
         position: absolute;
@@ -193,7 +194,7 @@ header{
     header h4{
         color:#f8f1f1 ;
         position: absolute;
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'Lora', serif;
         font-size: 10px;
         top:65px;
         left:120px
@@ -205,7 +206,7 @@ header{
     text-decoration: none;
     margin: 6px;
     font-size: 20px;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Lora', serif;
     padding: 10px;
     } 
     
@@ -237,7 +238,7 @@ header{
     }
     
     footer h2{
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'Lora', serif;
         color: #f8f1f1;
         font-size: 15px;
         position: absolute;

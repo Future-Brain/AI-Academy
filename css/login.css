@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
-/*font-family: 'JetBrains Mono', monospace;*/
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
 
 body{
   width: 100%;
@@ -72,7 +71,7 @@ background: linear-gradient(to left, #17C89A, #142843);
         border: 1px solid #F8F1F1;
         font-size: 15px;
         padding: 5px;
-        font-family: 'Forum', cursive;
+        font-family: 'Lora', serif;
         
     
     }
