@@ -112,7 +112,7 @@ left:0;
 .learn{
     position: relative;
     left: 7%;
-    top:420px;
+ 
     width:1300px
 }
 
@@ -130,7 +130,7 @@ left:0;
 .pay{
     position: relative;
     left:50%;
-    top:850px;
+    top:9cm;
 }
 
 .pay img{
@@ -140,7 +140,7 @@ left:0;
 .text4{
     position:relative;
     left:17%;
-    top:600px;
+    top:3cm;
     font-size: 25px;
     font-family: 'Noto Sans JP', sans-serif;
     line-height:1.5em
@@ -209,7 +209,7 @@ header{
     height: 100px;
     width: 100%;
     position: absolute;
-   top:300%;
+   top:280%;
     background: #17C89A;
     background: -webkit-linear-gradient(right, #17C89A, #142843);
     background: -moz-linear-gradient(right, #17C89A, #142843);

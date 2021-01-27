@@ -112,7 +112,7 @@ left:0;
 .learn{
     position: relative;
     left: 7%;
-    top:420px;
+   margin-top: 3cm;
     width:1300px
 }
 
@@ -130,7 +130,7 @@ left:0;
 .pay{
     position: relative;
     left:50%;
-    top:850px;
+    top:350px;
 }
 
 .pay img{
@@ -140,7 +140,7 @@ left:0;
 .text4{
     position:relative;
     left:17%;
-    top:600px;
+    top:100px;
     font-size: 25px;
     font-family: 'Noto Sans JP', sans-serif;
     line-height:1.5em
