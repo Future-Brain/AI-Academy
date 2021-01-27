@@ -107,6 +107,15 @@ main>img{
     left: -.1%;
 } */
 /* ----------------------- */
+
+body{
+    background: #9AD3BC;
+    background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
+    background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
+    background: linear-gradient(to bottom left, #9AD3BC, #F8F1F1);
+    
+    } 
+    
 header{
     height: 100px;
     width: 100%;
@@ -161,7 +170,7 @@ header{
     
     nav{
         position: absolute;
-        left:56%;
+        left:48%;
         top:40px ;  
     }
     
@@ -219,7 +228,7 @@ header{
     height: 400px;
     width: 410px;
     position: relative;
-    left: 10.5%;
+    left: 30.5%;
     top: 12%;
     box-shadow: 10px 10px 5px #747c7a;
    border: 1px solid #b1b3b4;
@@ -233,7 +242,7 @@ header{
     border: 10px solid #f8f1f1;
     position: absolute;
     top:-50px;
-    left: 50%;
+    left: 50%; 
     transform: translateX(-50%);
 }
 #formdiv .insert{
@@ -243,9 +252,12 @@ header{
     
 }
 input{
+    position: relative;
+    left:-7%;
     height:30px ;
     width:100%;
-    margin: 10px 0px;
+    display: inline-block;
+    margin: 5px 0px;
     border-radius: 3px;
     border: 1px solid #F8F1F1;
     font-size: 15px;
@@ -253,4 +265,14 @@ input{
     font-family: 'Forum', cursive;
     
 
+}
+span{
+    position: relative;
+    left:-7%;
+}
+
+.sub-button{
+background-color: #1f9979;
+color: #F8F1F1;
+height: 40px;
 }

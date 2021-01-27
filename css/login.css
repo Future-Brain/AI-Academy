@@ -14,7 +14,7 @@ body{
 
     main{
        height: calc(19cm - 160px);
-       width: 100%;
+       width: 100%; 
         
     }
 footer{
@@ -38,7 +38,7 @@ background: linear-gradient(to left, #17C89A, #142843);
     height: 400px;
     width: 410px;
     position: relative;
-    left: 10.5%;
+    left: 30.5%;
     top: 12%;
     box-shadow: 10px 10px 5px #747c7a;
    border: 1px solid #b1b3b4;
@@ -84,4 +84,11 @@ background: linear-gradient(to left, #17C89A, #142843);
         right: 10px;
         transform: translateY(-5%);
         color: #747c7a;
+    }
+
+    main a{
+        position: relative;
+        left:42%;
+        bottom:5%;
+        color: #142843;
     }
