@@ -27,7 +27,7 @@ background: linear-gradient(to left, #17C89A, #142843);
 }
 
 
-.form-container{
+#form-container{
     display: flex;
     justify-content: center;
     background-color:#ddd ;
@@ -44,7 +44,7 @@ background: linear-gradient(to left, #17C89A, #142843);
    border: 1px solid #b1b3b4;
 }
 
-.form-container .user-img img{
+#form-container .user-img img{
     height: 150px;
     width:150px;
     border-radius: 100%;
@@ -55,9 +55,12 @@ background: linear-gradient(to left, #17C89A, #142843);
     left: 50%;
     transform: translateX(-50%);
 }
+.footer-icons{
+    width: fit-content;
+}
 
 
-.form-container .insert{
+#form-container .insert{
     position: absolute;
     top:25%;
     left:12%;
@@ -77,7 +80,7 @@ background: linear-gradient(to left, #17C89A, #142843);
     
     }
     
-    .form-container .user-input i{ 
+    #form-container .user-input i{ 
         position: absolute;
         font-size: 20px;
         top:50%;
@@ -92,3 +95,75 @@ background: linear-gradient(to left, #17C89A, #142843);
         bottom:5%;
         color: #142843;
     }
+    #info{
+        position: relative;
+        top: 1%;
+    }
+    #info h1{
+      
+        width: 30%;
+        color:black;
+        font-size: 25px;
+        font-style: bold;
+        position: relative;
+        left: 1%;
+        top: 1%;
+        border:dotted rgb(4, 97, 61);
+padding-left: 5px;
+       padding-bottom: 5px;
+        
+    }
+    #courses{
+        display: inline-block;
+        border: solid black;
+        position: relative;
+        left: 35%;
+      bottom: 20%;
+        width: 50%;
+        background-color: #ddd;
+        height: 90%;
+    }
+    #courses p{
+        position: relative;
+        color: black;
+        font-size: 30px;
+        width: max-content;
+        margin: 5px 5px 5px 5px;
+    }
+    #courses label{
+        display: inline-block;
+        margin: 5px 5px 5px 5px;
+        font-size: 20px;
+        color: black;
+        position: relative;
+        top: 7.4%;
+
+
+        }
+        #courses input{
+            position: relative;
+            font-size: 20px;
+            display: inline-block;
+          left: 30%;
+        }
+       
+        #button{
+            width: 40%;
+            font-size: 30px;
+           
+        }
+        #result{
+            position: relative;
+            left: 1%;
+            top: 5%;
+            font-size: 25px;
+            color: black;
+            border: dashed rgb(4, 97, 61);
+            width: fit-content;
+            height: fit-content;
+           
+
+        }
+        #result li{
+           margin: 5px 5px 5px 5px;
+        }
