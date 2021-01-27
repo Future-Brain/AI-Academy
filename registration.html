@@ -6,47 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign up AI-Academy</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/header.css"> -->
     <link rel="stylesheet" href="css/registration.css">
 </head>
 
 <body>
     <header>
         <header>
-            <img src="img/logo-.png" alt="logo-">
+            <img src="img/Abd/logo-.png" alt="logo-">
             <h2>AI-Academy</h2>
             <h4>Artificial Intelligence Academy</h4>
             <nav>
-                <a href="" >Home</a>
-                <a href="" >Courses</a>
-                <a href="" >Feedback</a>
-                <a href="">About Us</a>
+                <a href="raya.html" >Home</a>
+                <a href="courses.html" >Courses</a>
+                <a href="feedBack.html" >Feedback</a>
+                <a href="login.html">log in</a>
+                <a href="about.html">About Us</a>
+                
             </nav>
         </header>
 
         <main>
-<img src="img/new.png" alt="">
             <div id="formdiv">
-             
-                <form action="" id="signUp">
-                    <label for="name">name:</label> <input type="text" required name="name">
-                    <label for="age">age:</label> <input type="number" required min="18" name="age">
-                    <label for="email">email:</label> <input type="text" required name="email">
-                    <label for="pass">password:</label> <input type="password" required name="pass">
-                     <!-- <select name="course" name="course">
-                        <option value="Artificial Intelligence for Finance, Accounting & Auditing" id="">Artificial Intelligence for Finance, Accounting & Auditing</option>
-                        <option value="Introduction to Artificial Intelligence" id=" ">Introduction to Artificial Intelligence  </option>                 
-                        <option value="Artificial Intelligence for Business" id=" "> Artificial Intelligence for Business      </option>
-                        <option value="Artificial Intelligence Masterclass" id=""> Artificial Intelligence Masterclass</option>
-                        <option value="Advanced AI For Games with Goal-Oriented Action Planning" id=" ">Advanced AI For Games with Goal-Oriented Action Planning     </option>
-                   
-                    </select> -->
-                    <input type="submit" id="sub" name="sub" value="submit">
-
+                <form  id="signUp">
+                    <fieldset>
+                        <div class="user-img">
+                            <img src="img/user.png" alt="">
+                        </div>
+                    <div class="insert">
+                        <div>
+                    <span> Name: </span>
+                     <input type="text" required name="name" placeholder="Enter your name">
+                    </div>
+                    <div>
+                    <span>age:</span> 
+                    <input type="number" required min="18" name="age" placeholder="Enter your age">
+                    <span>E-mail</span>
+                    <input type="text" name="email" required placeholder="Enter e-mail address">
+                    </div>
+                    <div>
+                    <span>password:</span> 
+                    <input type="password" required name="pass" placeholder="Enter password">
+                </div>
+                    <input type="submit" id="sub" name="sub" value="submit" class="sub-button">
+                </div>
+                </fieldset>
                 </form>
         </main>
         <footer>
             <h2>copyright© 2021</h2>
-           
+            <div class="footer-icons">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-youtube-play"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
         </footer>
         <script src="JS/registration.js"></script>
 </body>

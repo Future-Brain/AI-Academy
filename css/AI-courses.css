@@ -2,11 +2,11 @@
 /* font-family: 'Noto Sans JP', sans-serif; */
 
  html{
-    height: 400%;
+    height:fit-content;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-}  
+} 
 
 
 body{
@@ -19,6 +19,9 @@ body{
     
     } 
 
+    main{
+        height: fit-content;
+    }
 
 .info img{
 height: 410px;
@@ -145,7 +148,11 @@ left:0;
     top:850px;
 }
 
-.details .text4{
+.pay img{
+    height: 320px;
+    width:320px;
+}
+.text4{
     position:relative;
     left:17%;
     top:600px;

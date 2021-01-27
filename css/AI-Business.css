@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
-/* font-family: 'Noto Sans JP', sans-serif; */
 
  html{
-    height: 400%;
+    height: 100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-}  
+} 
 
 
 body{
-    /* min-height: 100%; */
+   height: 100%;
     position: relative;
     background: #9AD3BC;
     background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
     background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
     background: linear-gradient(to bottom left, #9AD3BC, #F8F1F1);
+    
     
     } 
 
@@ -32,55 +33,37 @@ top:160px
 .info h1{
     position: absolute;
     font-size: 40px;
-    top:250px;
+    top:320px;
     width: 350px;
     left: 190px;
     color:  #142843;
 }
-
-.info a{
-    position: absolute;
-    font-size: 20px;
-    top:36%;
-    left:16%;
-    color:#f8f1f1;
-    background-color: #fa1616;
-    border-radius: 5%;
-    padding:10px ;
-    text-decoration: none;
-}
 /* ---------------------------- */
 .container{
-position: relative;
+position: absolute;;
 top:350px;
 left:0;
+bottom: 0;
 }
 
-.container img{
-    height:400px;
-    width: 400px;
-}
+/* main{
+    height:100px;
+} */
 
-
-
-.des{
-    position: relative;
-    left: 50px;
-    top:40px
-}
 
 .des img{
     height: 600px;
     width: 600px;
-    position: relative;
-    top:40%;
+    position: absolute;
+    top:270px;
+   
 }
 
 .text1{
     position: absolute;
-    top:40%;
+    top:450px;
     width:500px;
-    left: 45%;
+    left: 580px;
     font-size: 20px;
     font-family: 'Noto Sans JP', sans-serif;
     line-height:1.5em
@@ -92,67 +75,51 @@ left:0;
 
 }
 
-.techniques img{
-    position: absolute;
-    top:50%;
-    height: 450px;
-    width:550px;
-    left:48%;
-}
 
-.techniques .text2{
-    position: absolute;
-    top:65%;
-    width:500px;
-    left: 8%;
-    font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
-    line-height:1.5em
-}
-
-.text2 h2{
-    font-weight: bolder;
-    margin-bottom: 10px;
-}
 
 .learn img{
     height: 350px;
     width:500px;
     position: absolute;
+    top:790px;
+    left:570px;
+
 }
 
-.learn{
-    position: relative;
-    left: 7%;
-    top:420px;
-    width:1300px
-}
 
 .learn .text3{
     position: absolute;
-    left: 45%;
-    top:100px;
+    left: 120px;
+    top:870px;
     width:400px;
     font-size: 20px;
     font-family: 'Noto Sans JP', sans-serif;
     line-height:1.2em
 }
-
-
-.pay{
-    position: relative;
-    left:50%;
-    top:850px;
+.learn h2{
+    font-weight: bolder;
+    margin-bottom: 10px;
+  
 }
 
-.details .text4{
-    position:relative;
-    left:17%;
-    top:600px;
-    font-size: 25px;
+.pay img{
+    position: absolute;
+    height:400px;
+    width: 300px;
+    left:-20px;
+    top:350px;
+}
+
+.text4{
+    position: absolute;
+    left:550px;
+    top:500px;
+    width:250px;
+    font-size: 20px;
     font-family: 'Noto Sans JP', sans-serif;
     line-height:1.5em
 }
+/* -------------------------------------------------------------------- */
 header{
     height: 100px;
     width: 100%;
@@ -207,7 +174,7 @@ header{
     
     nav{
         position: absolute;
-        left:48%;
+        left:56%;
         top:40px ;  
     }
     
@@ -216,7 +183,7 @@ header{
     height: 100px;
     width: 100%;
     position: absolute;
-    bottom:-1200px;
+    bottom:-2500px;
     background: #17C89A;
     background: -webkit-linear-gradient(right, #17C89A, #142843);
     background: -moz-linear-gradient(right, #17C89A, #142843);

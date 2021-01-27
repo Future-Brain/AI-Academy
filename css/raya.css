@@ -7,7 +7,7 @@ html{
     overflow-y: hidden;
 }
 body{
-    background-image: url(/img/new.png);
+    background-image: url(/img/Abd/new.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -70,7 +70,7 @@ body{
     
     nav{
         position: absolute;
-        left:45%;
+        left:40%;
         top:40px ;  
     }
 
