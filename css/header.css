@@ -7,7 +7,6 @@
 /*font-family: 'Lobster', cursive;*/
 
 body{
-    width: 100%;
 position: relative;
 background: #9AD3BC;
 background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
@@ -72,7 +71,7 @@ padding: 10px;
 
 nav{
     position: absolute;
-    left:56%;
+    left:48%;
     top:40px ;  
 }
 
@@ -81,6 +80,7 @@ footer{
 height: 100px;
 width: 100%;
 position: relative;
+margin-top: auto;
 background: #17C89A;
 background: -webkit-linear-gradient(right, #17C89A, #142843);
 background: -moz-linear-gradient(right, #17C89A, #142843);

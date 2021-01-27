@@ -7,92 +7,27 @@ body{
   height:20cm;
 
 }
-header{
-    height: 100px;
-    width: 100%;
-   
-    background: #17C89A;
-    background: -webkit-linear-gradient(right, #17C89A, #142843);
-    background: -moz-linear-gradient(right, #17C89A, #142843);
-    background: linear-gradient(to left, #17C89A, #142843);
-    }
-    
-    header img{
-        height: 70px;
-        width: 100px;
-        position: absolute;
-        top:15px;
-        left: 10px;
-    }
-  
-    header h2{
-        font-family: 'JetBrains Mono', monospace;
-        color: #f8f1f1;
-        font-size: 34px;
-        position: absolute;
-        left: 110px;
-        top: 30px;
-    }
-    
-    header h4{
-        color:#f8f1f1 ;
-        position: absolute;
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 10px;
-        top:70px;
-        left:110px
-    }
-    
-    
-   header a{
-    color:  #f8f1f1;
-    text-decoration: none;
-    margin: 10px;
-    font-size: 20px;
-    font-family: 'JetBrains Mono', monospace;
-    padding: 10px;
-    } 
-    
-   header a:hover{
-        background-color: #f8f1f1;
-        color:#142843 ;
-        border-bottom-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-    nav{
-        position: absolute;
-        left:60%;
-        top:7% ;  
-    }
+
     main{
        height: calc(20cm - 180px);
        width: 100%;
         
     }
   
-    
+/*     
 footer{
-    height: 80px;
+    height: 100px;
     width: 100%;
    
     background: #17C89A;
 background: -webkit-linear-gradient(right, #17C89A, #142843);
 background: -moz-linear-gradient(right, #17C89A, #142843);
 background: linear-gradient(to left, #17C89A, #142843);
-}
-
-footer h2{
-    font-family: 'JetBrains Mono', monospace;
-    color: white;
-    font-size: 25px;
-    position: relative;
-    left: 40%;
-    width: fit-content;
-   
-}
+} */
 
 
- #formdiv{
+
+ /* #formdiv{
      margin-right: 0%;
    background-color: rgba(0, 0, 0, 0.8);
      height:85%;
@@ -170,4 +105,174 @@ main>img{
     opacity: .5;
     z-index:-1;
     left: -.1%;
+} */
+/* ----------------------- */
+
+body{
+    background: #9AD3BC;
+    background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
+    background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
+    background: linear-gradient(to bottom left, #9AD3BC, #F8F1F1);
+    
+    } 
+    
+header{
+    height: 100px;
+    width: 100%;
+    background: #17C89A;
+    background: -webkit-linear-gradient(right, #17C89A, #142843);
+    background: -moz-linear-gradient(right, #17C89A, #142843);
+    background: linear-gradient(to left, #17C89A, #142843);
+    }
+     
+    header img{
+        height: 60px;
+        width: 90px;
+        position: absolute;
+        top:15px;
+        left: 30px;
+    }
+    
+    header h2{
+        font-family: 'JetBrains Mono', monospace;
+        color: #f8f1f1;
+        font-size: 34px;
+        position: absolute;
+        left: 120px;
+        top: 25px;
+    }
+    
+    header h4{
+        color:#f8f1f1 ;
+        position: absolute;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        top:65px;
+        left:120px
+    }
+    
+    
+     nav a{
+    color:  #f8f1f1;
+    text-decoration: none;
+    margin: 6px;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 10px;
+    } 
+    
+     header nav a:hover{
+        background-color: #f8f1f1;
+        color:#142843 ;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    nav{
+        position: absolute;
+        left:48%;
+        top:40px ;  
+    }
+    
+    
+    footer{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background: #17C89A;
+    background: -webkit-linear-gradient(right, #17C89A, #142843);
+    background: -moz-linear-gradient(right, #17C89A, #142843);
+    background: linear-gradient(to left, #17C89A, #142843);
+    
+     
+    }
+    
+    footer h2{
+        font-family: 'JetBrains Mono', monospace;
+        color: #f8f1f1;
+        font-size: 15px;
+        position: absolute;
+    
+        left: 45%;
+        bottom: 15px; 
+    }
+    
+    .footer-icons i{
+        background-color:#f8f1f1 ;
+        border-radius: 80%;
+        color: #05795c;
+        padding: 10px;  
+        margin: 5px 10px 5px 5px;
+    }
+    
+    .footer-icons{
+        position: relative;
+        left: 42%;
+        top:45%;
+    }
+    .footer-icons i:hover{
+    background-color:#142843;
+    color: #F8F1F1;
+    
+    }
+    
+/* ----------------- */
+#formdiv{
+    display: flex;
+    justify-content: center;
+    background-color:#ddd ;
+    color: #070a0e;
+    display: inline-block;
+    padding: 30px 30px;
+    margin: 5px;
+    height: 400px;
+    width: 410px;
+    position: relative;
+    left: 30.5%;
+    top: 12%;
+    box-shadow: 10px 10px 5px #747c7a;
+   border: 1px solid #b1b3b4;
+}
+
+#formdiv img{
+    height: 150px;
+    width:150px;
+    border-radius: 100%;
+    background-color: #f8f1f1;
+    border: 10px solid #f8f1f1;
+    position: absolute;
+    top:-50px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+#formdiv .insert{
+    position: absolute;
+    top:25%;
+    left:12%;
+    
+}
+input{
+    position: relative;
+    left:-7%;
+    height:30px ;
+    width:100%;
+    display: inline-block;
+    margin: 5px 0px;
+    border-radius: 3px;
+    border: 1px solid #F8F1F1;
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Forum', cursive;
+    
+
+}
+span{
+    position: relative;
+    left:-7%;
+}
+
+.sub-button{
+background-color: #1f9979;
+color: #F8F1F1;
+height: 40px;
 }
