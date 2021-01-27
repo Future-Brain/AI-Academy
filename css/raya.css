@@ -4,15 +4,16 @@ html{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 body{
-    background-image: url(/img/new.png);
+    background-image: url(/img/Abd/new.png);
     background-size: cover;
     background-position: center;
     position: relative;
     overflow: hidden;
 }
-header{
+/* header{
     height: 100px;
     width: 100%;
     background:rgba(23, 200, 154, 0.5) ;
@@ -22,7 +23,7 @@ header{
 );
     background: linear-gradient(to left, rgba(23, 200, 154, 0.5), rgba(20, 40, 67, 0.5)
 );
-    }
+    } */
      
     header img{
         height: 60px;
@@ -69,7 +70,7 @@ header{
     
     nav{
         position: absolute;
-        left:56%;
+        left:45%;
         top:40px ;  
     }
 
@@ -88,9 +89,9 @@ header{
     z-index: 2;
 }
 .content h3{
-    font-size: 60px;
+    font-size: 50px;
     margin: 5px 0 40px;
-    line-height: 80px;
+    /* line-height: 80px; */
 }
 
 .content h2 {
@@ -98,18 +99,18 @@ header{
     padding: 0;
     color: #ffff;
     font-size: 1em;
-    line-height: 5;
+    line-height: 2;
 }
 
 .content h2 span{
-    color:  #11C37C;
+    color:  #84ddb9;
 }
 
 #button{
 position: relative;
 display: inline-block;
 padding: 15px 30px;
-color: #11C37C;
+color: #a1e0c6;
 text-transform: uppercase;
 letter-spacing: 4px;
 text-decoration: none;
@@ -119,9 +120,9 @@ transition: 0.2s;
 }
 
 #button:hover{
-color: #7A7FBA;
-background: #11C37C; 
-box-shadow: 0 0 10px #11C37C,0 0 40px #11C37C,0 0 80px #11C37C;
+color:#142843;
+background:  #a1e0c6; 
+box-shadow: 0 0 10px  #a1e0c6,0 0 40px  #a1e0c6,0 0 80px  #a1e0c6;
 transition-delay: 1s;
 }
 #button span{
@@ -196,6 +197,7 @@ footer{
     height: 100px;
     width: 100%;
     position: relative;
+    bottom: 100px;
    
     
     }
