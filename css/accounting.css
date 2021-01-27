@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
+
+
+
+
  html{
     height: 400%;
     margin: 0px;
@@ -56,7 +61,7 @@ left:0;
     width:500px;
     left: 45%;
     font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.5em
 }
 .text1 h2{
@@ -76,7 +81,7 @@ left:0;
     width:500px;
     left: 8%;
     font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.5em
 }
 .text2 h2{
@@ -100,7 +105,7 @@ left:0;
     top:100px;
     width:400px;
     font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.2em
 }
 .pay{
@@ -113,7 +118,7 @@ left:0;
     left:17%;
     top:600px;
     font-size: 25px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.5em
 }
 header{
@@ -132,7 +137,7 @@ header{
         left: 30px;
     }
     header h2{
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'Lora', serif;
         color: #F8F1F1;
         font-size: 34px;
         position: absolute;
@@ -142,7 +147,7 @@ header{
     header h4{
         color:#f8f1f1 ;
         position: absolute;
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'Lora', serif;
         font-size: 10px;
         top:65px;
         left:120px
@@ -152,7 +157,7 @@ header{
     text-decoration: none;
     margin: 6px;
     font-size: 20px;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Lora', serif;
     padding: 10px;
     } 
      header a:hover{
@@ -177,7 +182,7 @@ header{
     background: linear-gradient(to left, #17C89A, #142843);
     }
     footer h2{
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'Lora', serif;
         color: #F8F1F1;
         font-size: 15px;
         position: absolute;

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
 
  html{
     height: 100%;
@@ -65,7 +66,7 @@ bottom: 0;
     width:500px;
     left: 580px;
     font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.5em
 }
 
@@ -93,7 +94,7 @@ bottom: 0;
     top:870px;
     width:400px;
     font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.2em
 }
 .learn h2{
@@ -116,7 +117,7 @@ bottom: 0;
     top:500px;
     width:250px;
     font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lora', serif;
     line-height:1.5em
 }
 /* -------------------------------------------------------------------- */
@@ -138,7 +139,7 @@ header{
     }
     
     header h2{
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'Lora', serif;
         color: #f8f1f1;
         font-size: 34px;
         position: absolute;
@@ -149,7 +150,7 @@ header{
     header h4{
         color:#f8f1f1 ;
         position: absolute;
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'Lora', serif;
         font-size: 10px;
         top:65px;
         left:120px
@@ -161,7 +162,7 @@ header{
     text-decoration: none;
     margin: 6px;
     font-size: 20px;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Lora', serif;
     padding: 10px;
     } 
     
@@ -193,7 +194,7 @@ header{
     }
     
     footer h2{
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'Lora', serif;
         color: #f8f1f1;
         font-size: 15px;
         position: absolute;

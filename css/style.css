@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
-/*font-family: 'JetBrains Mono', monospace;*/
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-/*font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
 
 html{
-    height:190%;
+    /* height:120%; */
     width:100%;
     margin: 0px;
     padding: 0px;
@@ -40,7 +38,7 @@ header img{
 }
 
 header h2{
-    font-family: 'JetBrains Mono', monospace;
+   font-family: 'Lora', serif;
     color: #f8f1f1;
     font-size: 34px;
     position: absolute;
@@ -51,7 +49,7 @@ header h2{
 header h4{
     color:#f8f1f1 ;
     position: absolute;
-    font-family: 'JetBrains Mono', monospace;
+   font-family: 'Lora', serif;
     font-size: 10px;
     top:65px;
     left:120px
@@ -63,7 +61,7 @@ color:  #f8f1f1;
 text-decoration: none;
 margin: 4px;
 font-size: 20px;
-font-family: 'JetBrains Mono', monospace;
+font-family: 'Lora', serif;
 padding: 10px;
 } 
 
@@ -81,6 +79,7 @@ nav{
 }
 
 footer{
+    bottom: 0;
 height: 100px;
 width: 100%;
 position: relative;
@@ -93,7 +92,7 @@ background: linear-gradient(to left, #17C89A, #142843);
 }
 
 footer h2{
-    font-family: 'JetBrains Mono', monospace;
+   font-family: 'Lora', serif;
     color: #f8f1f1;
     font-size: 15px;
     position: absolute;
@@ -147,7 +146,7 @@ color: #F8F1F1;
 }
 
 .container .team-member h3{
-    font-family: 'JetBrains Mono', monospace;;
+   font-family: 'Lora', serif;;
     font-weight: bold;
     font-size: 22px;
     color:#142843;
@@ -195,7 +194,7 @@ main h1{
     font-weight: bold;
     letter-spacing: 2px;
     color: #142843;
-    font-family: 'Lobster', cursive;;
+    font-family: 'Lora', serif;
     font-size: 40px;
     
 }

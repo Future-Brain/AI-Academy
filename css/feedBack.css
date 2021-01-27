@@ -1,13 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
-/*font-family: 'JetBrains Mono', monospace;*/
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Handlee&display=swap');
-/* font-family: 'Caveat', cursive;
-font-family: 'Handlee', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
-/* font-family: 'Forum', cursive; */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
 
 html{
     height:300%;
@@ -46,7 +38,7 @@ header img{
 }
 
 header h2{
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Lora', serif;
     color: #f8f1f1;
     font-size: 34px;
     position: absolute;
@@ -57,7 +49,7 @@ header h2{
 header h4{
     color:#f8f1f1 ;
     position: absolute;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Lora', serif;
     font-size: 10px;
     top:65px;
     left:120px
@@ -69,7 +61,7 @@ color:  #f8f1f1;
 text-decoration: none;
 margin: 6px;
 font-size: 20px;
-font-family: 'JetBrains Mono', monospace;
+font-family: 'Lora', serif;
 padding: 10px;
 } 
 
@@ -100,7 +92,7 @@ background: linear-gradient(to left, #17C89A, #142843);
 }
 
 footer h2{
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Lora', serif;
     color: #f8f1f1;
     font-size: 15px;
     position: absolute;
@@ -173,7 +165,7 @@ input, option,#course{
     border: 1px solid #F8F1F1;
     font-size: 15px;
     padding: 5px;
-    font-family: 'Forum', cursive;
+    font-family: 'Lora', serif;
 
 }
 
@@ -193,7 +185,7 @@ input, option,#course{
     font-size: 17px;
     padding:5px;
     width:100%;
-    font-family: 'Forum', cursive;
+    font-family: 'Lora', serif;
 
 }
 
@@ -203,14 +195,14 @@ form .sub-button{
     background-color: #04377a;
     padding-bottom:5%;
     width: 100%;
-    font-size: 22px;
+    font-size: 18px;
     color: #F8F1F1;
-    font-family: 'Forum', cursive;
+    font-family: 'Lora', serif;
 }
 
 #feedBackDiv{
-font-family: 'Caveat', cursive;
-font-family: 'Handlee', cursive;
+    font-family: 'Lora', serif;
+    line-height: 1.5rem;
 }
  input:focus,#course:focus,textarea:focus{
 border: none;
@@ -246,7 +238,7 @@ font-weight: bold;
 .comment h5{  
 font-size: 20px;
 width: 300px;
-height: 140px;
+height:200px;
 padding: 10px;
 margin: 3px;
     
