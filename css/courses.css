@@ -40,6 +40,7 @@ h1::after{
     margin: 10px auto;
     display: block;
 }
+
  .card{
    position: relative;
    background: #fff;
@@ -47,8 +48,17 @@ h1::after{
    height: 510px;
    margin-top: 10px;
    margin-bottom: 20px;
+   border-radius:10px ;
+   box-shadow: 10px 10px 5px grey;
+
 
 }
+
+.card:hover{
+    box-shadow: 10px 10px 5px #17C89A;
+
+}
+
 .card .content{
     position: absolute;
     top: 250px;
@@ -67,28 +77,36 @@ h1::after{
 
 }
 
-.card .sliderText{
+/* .card .sliderText{
     position: absolute;
     width: 90%;
     height: 220px;
     display: flex;
-    justify-content: center;
+   
     align-items: center;
-    background: rgba(23, 200, 154, 0);
-    background: -webkit-linear-gradient(right, #17C89A, #142843);
-    background: -moz-linear-gradient(right, #17C89A, #142843);
-    background: linear-gradient(to left, #17C89A, #142843);
+  
     padding: 10px;
     margin: 10px;
-}
+} */
 .card .sliderText h3{
-    color: #f8f1f1;
-    font-size: 2em;
+    color: #262626;
+    font-size: 22px;
+    width: 95%;
+    padding: 10px;
+    margin-left: 5px;
+    font-weight: 600;
 }
 .swiper-wrapper{
     width: 450px;
 }
+.card .sliderText img{
+    width: 95%;
+    padding: 10px;
 
+    height: 200px;
+    display: block;
+
+}
 
 
 
