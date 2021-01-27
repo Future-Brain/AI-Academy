@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
+
 html{
     height: 100%;
     width: 100%;
@@ -34,7 +37,7 @@ body{
     }
     
     header h2{
-        font-family: 'JetBrains Mono', monospace;
+       font-family: 'Lora', serif;
         color: #f8f1f1;
         font-size: 34px;
         position: absolute;
@@ -45,7 +48,7 @@ body{
     header h4{
         color:#f8f1f1 ;
         position: absolute;
-        font-family: 'JetBrains Mono', monospace;
+       font-family: 'Lora', serif;
         font-size: 10px;
         top:65px;
         left:120px
@@ -57,7 +60,7 @@ body{
     text-decoration: none;
     margin: 6px;
     font-size: 20px;
-    font-family: 'JetBrains Mono', monospace;
+   font-family: 'Lora', serif;
     padding: 10px;
     } 
     
@@ -203,7 +206,7 @@ footer{
     }
     
     footer h2{
-        font-family: 'JetBrains Mono', monospace;
+       font-family: 'Lora', serif;
         color: #f8f1f1;
         font-size: 15px;
         position: absolute;
