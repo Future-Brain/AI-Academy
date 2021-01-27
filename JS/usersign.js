@@ -36,14 +36,16 @@ function log(event) {
         registrationLink.remove();
         
          
-for (let i= 0; i < localStorage.getItem(nameUser+' courses: ').length; i++) {
+for (let i= 0; i < JSON.parse(localStorage.getItem(nameUser+' courses: ')).length; i++) {
     var list = document.createElement('li');
     
     list.textContent= JSON.parse (localStorage.getItem(nameUser+' courses: '))[i];
     result.appendChild(list);
     
 }
-       
+
+
+
     }
 button.style.opacity=1;
        
@@ -171,7 +173,10 @@ function promp(){
                firstCourse.textContent= checkedCourse[i];
                result.appendChild(firstCourse);
            }
-          
+           
+             
+            
+           
          }
          
        
