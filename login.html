@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,59 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login AI-Courses</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
     <header>
-        <img src="img/logo-.png" alt="logo-">
+        <img src="img/Abd/logo-.png" alt="logo-">
         <h2>AI-Academy</h2>
         <h4>Artificial Intelligence Academy</h4>
-<nav>
-    <a href="" id="a1">Home</a>
-    <a href=""id="a2">Courses</a>
-    <a href=""id="a3">Feedback</a>
-    <a href=""id="a4">About Us</a>
-</nav>
+        <nav>
+            <a href="raya.html" >Home</a>
+            <a href="courses.html" >Courses</a>
+            <a href="feedBack.html" >Feedback</a>
+            <a href="about.html" >About Us</a>
+        </nav>
     </header>
     <main>
-        <img src="img/new.png" alt="">
-        <form action="" id="log">
-            <fieldset> login </fieldset>
-            <label for="userName">User name:</label> <input type="text" name="userName" required> 
-            <label for="email">email:</label> <input type="text" name="email" required> 
-            <label for="pass"> password:</label> <input type="password" name="pass" required>
-            <input id="sub" type="submit" value="login">
-        </form>
-        <div id="info" >
+        <div class="form-container">
+            <form id="log">
+                <fieldset>
+                    <div class="user-img">
+                        <img src="img/user.png" alt="">
+                    </div>
+                    <div class="insert">
+                        
+                            <span> Name: </span>
+                            <input type="text" name="userName" id="userName" required placeholder="Enter your name">
+                            <!-- <i class="fa fa-user"></i> -->
+                        
+                        <div class="user-input">
+                            <span>E-mail</span>
+                            <input type="text" name="email" required placeholder="Enter e-mail address">
+                            <!-- <i class="fa fa-envelope"></i> -->
+                        </div>
+                        <div class="user-pass">
+                            <span> password:</span>
+                            <input type="password" name="pass" required placeholder="Enter e-mail address">
+                            <input id="sub" type="submit" value="login">
+                        </div>
+                    </div>
+                </fieldset>  
+            </form>  
+            </div> 
+            
+                    <div id="info">
 
 
-        </div>
+                    </div>
 
-        <div id="courses" style="display: none;">
+                    <div id="courses" style="display: none;">
 
-         <label for="check1">Artificial Intelligence for Finance, Accounting & Auditing</label>   
-         <input type="checkbox" id="check1" name="Artificial Intelligence for Finance, Accounting & Auditing">
-         <br>
-         <label for="check2">Introduction to Artificial Intelligence</label>   
-         <input type="checkbox" id="check2" name="Introduction to Artificial Intelligence">
-         <br>
-         <label for="check3">Artificial Intelligence for Business</label>   
-         <input type="checkbox" id="check3" name="Artificial Intelligence for Business">
-         <br>
-         <label for="check4">Artificial Intelligence Masterclass</label>   
-         <input type="checkbox" id="check4" name="Artificial Intelligence Masterclass">
-         <br>
-         <label for="check5">Advanced AI For Games with Goal-Oriented Action Planning</label>   
-         <input type="checkbox" id="check5" name="Advanced AI For Games with Goal-Oriented Action Planning">
-        </div>
-        <input type="submit" id="button" style="opacity: 0;" onclick="promp()">
-        <ul id="result"></ul>
+                        <label for="check1">Artificial Intelligence for Finance, Accounting & Auditing</label>
+                        <input type="checkbox" id="check1"
+                            name="Artificial Intelligence for Finance, Accounting & Auditing">
+                        <br>
+                        <label for="check2">Introduction to Artificial Intelligence</label>
+                        <input type="checkbox" id="check2" name="Introduction to Artificial Intelligence">
+                        <br>
+                        <label for="check3">Artificial Intelligence for Business</label>
+                        <input type="checkbox" id="check3" name="Artificial Intelligence for Business">
+                        <br>
+                        <label for="check4">Artificial Intelligence Masterclass</label>
+                        <input type="checkbox" id="check4" name="Artificial Intelligence Masterclass">
+                        <br>
+                        <label for="check5">Advanced AI For Games with Goal-Oriented Action Planning</label>
+                        <input type="checkbox" id="check5"
+                            name="Advanced AI For Games with Goal-Oriented Action Planning">
+                    </div>
+                    <input type="submit" id="button" style="opacity: 0;" onclick="promp()">
+                    <ul id="result"></ul>
+               
     </main>
     <footer>
         <h2>copyright© 2021</h2>
+        <div class="footer-icons">
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-youtube-play"></i></a>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+        </div>
     </footer>
-<script src="JS/usersign.js"></script>
+    <script src="JS/usersign.js"></script>
 </body>
 
-</html> 
+</html>

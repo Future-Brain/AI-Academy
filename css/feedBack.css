@@ -187,7 +187,7 @@ input, option,#course{
 }
 
 #studentFeedBack{
-    margin: 4px 0px;
+    margin: 4px 0px; 
     border-radius: 3px;
     border: 1px solid #F8F1F1;
     font-size: 17px;
