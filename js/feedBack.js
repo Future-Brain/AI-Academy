@@ -20,9 +20,9 @@ FeedBack.prototype.render = function () {
   studentName.textContent = this.name + ':' ;
   newDiv.appendChild(studentName);
 
-  var studentCourse = document.createElement('h4');
-  studentCourse.textContent='[' + this.course+']' ;
-  newDiv.appendChild(studentCourse);
+  // var studentCourse = document.createElement('h4');
+  // studentCourse.textContent='[' + this.course+']' ;
+  // newDiv.appendChild(studentCourse);
 
   var studentFeedBack = document.createElement('h5');
   studentFeedBack.textContent =this.feedBack;
@@ -52,6 +52,6 @@ function submitFun(event) {
   var newFeedBack = new FeedBack(studentNameVal, courseVal, feedBackVal);
   localStorage.setItem('feedBack', JSON.stringify(FeedBack.prototype.allFeedBack));
   newFeedBack.render();
-  window.open()
+
 }
 

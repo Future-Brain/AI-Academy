@@ -2,7 +2,7 @@
 /* font-family: 'Lora', serif; */
 
  html{
-    height: 310%;
+    height: 210%;
     margin: 0px;
     padding-bottom: 0px;
     overflow-x: hidden;
@@ -87,7 +87,7 @@ left:0;
     line-height:1.5em
 }
 
-.text1 h2{
+.text1 h2{ 
     font-weight: bolder;
     margin-bottom: 10px;
 
@@ -246,7 +246,7 @@ header{
     
     .footer-icons{
         position: relative;
-        left: 42%;
+        left: 43%;
         top:20%;
     }
     .footer-icons i:hover{
