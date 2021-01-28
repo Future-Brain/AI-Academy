@@ -12,22 +12,28 @@ function FeedBack(name, course, feedBack) {
 FeedBack.prototype.allFeedBack = [];
 /////////////////// render function
 FeedBack.prototype.render = function () {
-  var newSection = document.createElement('section');
-  feedBackDiv.appendChild(newSection);
+  var newDiv = document.createElement('div');
+  newDiv.setAttribute('class','comment')
+  feedBackDiv.appendChild(newDiv);
 
   var studentName = document.createElement('h3');
-  studentName.textContent = this.name + ' I took ' + this.course;
-  newSection.appendChild(studentName);
+  studentName.textContent = this.name + ':' ;
+  newDiv.appendChild(studentName);
 
-  var studentFeedBack = document.createElement('h4');
-  studentFeedBack.textContent = this.feedBack;
-  newSection.appendChild(studentFeedBack);
+  // var studentCourse = document.createElement('h4');
+  // studentCourse.textContent='[' + this.course+']' ;
+  // newDiv.appendChild(studentCourse);
+
+  var studentFeedBack = document.createElement('h5');
+  studentFeedBack.textContent =this.feedBack;
+  newDiv.appendChild(studentFeedBack);
 };
 ///// local Stoarage
 var dataFromLocal = JSON.parse(localStorage.getItem('feedBack'));
 if (dataFromLocal) {
   for (var i = 0;i< dataFromLocal.length; i++) {
-    var JsData = new FeedBack(dataFromLocal[i].name, dataFromLocal[i].course, dataFromLocal[i].feedBack);
+
+    var JsData = new FeedBack(dataFromLocal[i].name+": ", dataFromLocal[i].course, dataFromLocal[i].feedBack);   
     JsData.render();
   }
 }

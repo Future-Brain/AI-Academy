@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
-/*font-family: 'JetBrains Mono', monospace;*/
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
-/* font-family: 'Lobster', cursive;
-=======
-/*font-family: 'Lobster', cursive;*/
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
 body{
 position: relative;
 background: #9AD3BC;
@@ -20,7 +14,6 @@ background: linear-gradient(to bottom left, #9AD3BC, #F8F1F1);
 header{
 height: 100px;
 width: 100%;
-
 background: #17C89A;
 background: -webkit-linear-gradient(right, #17C89A, #142843);
 background: -moz-linear-gradient(right, #17C89A, #142843);
@@ -36,7 +29,7 @@ header img{
 }
 
 header h2{
-    font-family: 'JetBrains Mono', monospace;
+   font-family: 'Lora', serif;
     color: #f8f1f1;
     font-size: 34px;
     position: absolute;
@@ -47,7 +40,7 @@ header h2{
 header h4{
     color:#f8f1f1 ;
     position: absolute;
-    font-family: 'JetBrains Mono', monospace;
+   font-family: 'Lora', serif;
     font-size: 10px;
     top:65px;
     left:120px
@@ -59,7 +52,7 @@ color:  #f8f1f1;
 text-decoration: none;
 margin: 6px;
 font-size: 20px;
-font-family: 'JetBrains Mono', monospace;
+font-family: 'Lora', serif;
 padding: 10px;
 } 
 
@@ -72,14 +65,16 @@ padding: 10px;
 
 nav{
     position: absolute;
-    left:56%;
+    left:48%;
     top:40px ;  
 }
+
 
 footer{
 height: 100px;
 width: 100%;
 position: relative;
+margin-top: auto;
 background: #17C89A;
 background: -webkit-linear-gradient(right, #17C89A, #142843);
 background: -moz-linear-gradient(right, #17C89A, #142843);
@@ -89,7 +84,7 @@ background: linear-gradient(to left, #17C89A, #142843);
 }
 
 footer h2{
-    font-family: 'JetBrains Mono', monospace;
+   font-family: 'Lora', serif;
     color: #f8f1f1;
     font-size: 15px;
     position: absolute;
@@ -108,7 +103,7 @@ footer h2{
 
 .footer-icons{
     position: relative;
-    left: 42%;
+    left: 43%;
     top:20%;
 }
 .footer-icons i:hover{

@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
+
 html{
     height: 100%;
     width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 body{
-    background-image: url(/img/new.png);
+
     background-size: cover;
     background-position: center;
     position: relative;
     overflow: hidden;
 }
-header{
+/* header{
     height: 100px;
     width: 100%;
     background:rgba(23, 200, 154, 0.5) ;
@@ -22,7 +26,7 @@ header{
 );
     background: linear-gradient(to left, rgba(23, 200, 154, 0.5), rgba(20, 40, 67, 0.5)
 );
-    }
+    } */
      
     header img{
         height: 60px;
@@ -33,7 +37,7 @@ header{
     }
     
     header h2{
-        font-family: 'JetBrains Mono', monospace;
+       font-family: 'Lora', serif;
         color: #f8f1f1;
         font-size: 34px;
         position: absolute;
@@ -44,7 +48,7 @@ header{
     header h4{
         color:#f8f1f1 ;
         position: absolute;
-        font-family: 'JetBrains Mono', monospace;
+       font-family: 'Lora', serif;
         font-size: 10px;
         top:65px;
         left:120px
@@ -56,7 +60,7 @@ header{
     text-decoration: none;
     margin: 6px;
     font-size: 20px;
-    font-family: 'JetBrains Mono', monospace;
+   font-family: 'Lora', serif;
     padding: 10px;
     } 
     
@@ -69,7 +73,7 @@ header{
     
     nav{
         position: absolute;
-        left:56%;
+        left:40%;
         top:40px ;  
     }
 
@@ -88,9 +92,9 @@ header{
     z-index: 2;
 }
 .content h3{
-    font-size: 60px;
+    font-size: 50px;
     margin: 5px 0 40px;
-    line-height: 80px;
+    /* line-height: 80px; */
 }
 
 .content h2 {
@@ -98,18 +102,18 @@ header{
     padding: 0;
     color: #ffff;
     font-size: 1em;
-    line-height: 5;
+    line-height: 2;
 }
 
 .content h2 span{
-    color:  #11C37C;
+    color:  #84ddb9;
 }
 
 #button{
 position: relative;
 display: inline-block;
 padding: 15px 30px;
-color: #11C37C;
+color: #a1e0c6;
 text-transform: uppercase;
 letter-spacing: 4px;
 text-decoration: none;
@@ -119,9 +123,9 @@ transition: 0.2s;
 }
 
 #button:hover{
-color: #7A7FBA;
-background: #11C37C; 
-box-shadow: 0 0 10px #11C37C,0 0 40px #11C37C,0 0 80px #11C37C;
+color:#142843;
+background:  #a1e0c6; 
+box-shadow: 0 0 10px  #a1e0c6,0 0 40px  #a1e0c6,0 0 80px  #a1e0c6;
 transition-delay: 1s;
 }
 #button span{
@@ -196,16 +200,13 @@ footer{
     height: 100px;
     width: 100%;
     position: relative;
-    /* background: rgba(23, 200, 154, 0);
-    background: -webkit-linear-gradient(right, #17C89A, #142843);
-    background: -moz-linear-gradient(right, #17C89A, #142843);
-    background: linear-gradient(to left, #17C89A, #142843);
-     */
+    bottom: 100px;
+   
     
     }
     
     footer h2{
-        font-family: 'JetBrains Mono', monospace;
+       font-family: 'Lora', serif;
         color: #f8f1f1;
         font-size: 15px;
         position: absolute;
@@ -224,7 +225,7 @@ footer{
     
     .footer-icons{
         position: relative;
-        left: 42%;
+        left: 43%;
         top:20%;
     }
     .footer-icons i:hover{

@@ -1,18 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
 
-#feedBack {
+html{
+    height:300%;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body{
+min-height: 100%;
+min-width: 100%;
+position: relative;
+background: #9AD3BC;
+background: -webkit-linear-gradient(top right, #9AD3BC, #F8F1F1);
+background: -moz-linear-gradient(top right, #9AD3BC, #F8F1F1);
+background: linear-gradient(to bottom left, #9AD3BC, #F8F1F1);
+}
+
+header{
+height: 100px;
+width: 100%;
+
+background: #17C89A;
+background: -webkit-linear-gradient(right, #17C89A, #142843);
+background: -moz-linear-gradient(right, #17C89A, #142843);
+background: linear-gradient(to left, #17C89A, #142843);
+}
+ 
+header img{
+    height: 60px;
+    width: 90px;
+    position: absolute;
+    top:15px;
+    left: 30px;
+}
+
+header h2{
+    font-family: 'Lora', serif;
+    color: #f8f1f1;
+    font-size: 34px;
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+
+header h4{
+    color:#f8f1f1 ;
+    position: absolute;
+    font-family: 'Lora', serif;
+    font-size: 10px;
+    top:65px;
+    left:120px
+}
+
+
+header a{
+color:  #f8f1f1;
+text-decoration: none;
+margin: 6px;
+font-size: 20px;
+font-family: 'Lora', serif;
+padding: 10px;
+} 
+
+ header a:hover{
+    background-color: #f8f1f1;
+    color:#142843 ;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+nav{
+    position: absolute;
+    left:48%;
+    top:40px ;  
+}
+
+footer{
+height: 100px;
+width: 100%;
+position: absolute;
+bottom: -90px;
+background: #17C89A;
+background: -webkit-linear-gradient(right, #17C89A, #142843);
+background: -moz-linear-gradient(right, #17C89A, #142843);
+background: linear-gradient(to left, #17C89A, #142843);
+
+
+}
+
+footer h2{
+    font-family: 'Lora', serif;
+    color: #f8f1f1;
+    font-size: 15px;
+    position: absolute;
+    left: 45%;
+    bottom: 15px; 
+}
+
+.footer-icons i{
+    background-color:#f8f1f1 ;
+    border-radius: 80%;
+    color: #05795c;
+    padding: 10px;  
+    margin: 5px 10px 5px 5px;
+}
+
+.footer-icons{
+    position: relative;
+    left: 43%;
+    top:20%;
+}
+.footer-icons i:hover{
+background-color:#142843;
+color: #F8F1F1;
+}
+/*---------------------------------*/
+main{
+    height: 1000px;
+    min-width: 100%;
+}
+.robot{
+    height: 600px;
+    width:600px;
+    position: relative;
+    top: 30px;
+}
+
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    background-color:#ddd ;
+    display: inline-block;
+    padding: 25px 25px;
+    height: 470px;
+    width: 410px;
+    position: relative; 
+    left:53%;
+    bottom:53%;
+}
+.form-container h2{
+    padding: 10px 0px;
+    font-size:30px;
+    font-weight: bold;
+    color:#142843;
     text-align: center;
+    margin: 5px;
+    
+
 }
+
+.form-container .user-input{
+position: relative;
+}
+
+input, option,#course{
+    height:30px ;
+    width:100%;
+    margin: 4px 0px;
+    border-radius: 3px;
+    border: 1px solid #F8F1F1;
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Lora', serif;
+
+}
+
+.form-container i{
+    position: absolute;
+    font-size: 20px;
+    top:50%;
+    right: 10px;
+    transform: translateY(-5%);
+    color: #747c7a;
+}
+
 #studentFeedBack{
-    margin-bottom: -30px;
+    margin: 4px 0px; 
+    border-radius: 3px;
+    border: 1px solid #F8F1F1;
+    font-size: 17px;
+    padding:5px;
+    width:100%;
+    font-family: 'Lora', serif;
+
 }
-section{
-    border: 2px solid royalblue;
-    background-color: darkblue;
-    color: whitesmoke;
-    border-radius: 10px;
+
+form .sub-button{
+    margin-top: 5px;
+    border: none;
+    background-color: #04377a;
+    padding-bottom:5%;
     width: 100%;
-   margin-bottom: 10px;
+    font-size: 18px;
+    color: #F8F1F1;
+    font-family: 'Lora', serif;
 }
-main {
-    height: 100%;
+
+#feedBackDiv{
+    font-family: 'Lora', serif;
+    line-height: 1.5rem;
+}
+ input:focus,#course:focus,textarea:focus{
+border: none;
+color:#05795c;
+transition: all 0.3s ease;
+} 
+
+form input:focus::placeholder,form textarea:focus::placeholder{
+padding-left: 4px;    
+color:#05795c;
+transition: all 0.3s ease;
+font-weight: bold;
+}
+    
+#feedBackDiv{
+    width: 1200px;
+    height: 200px;
+    justify-content: center;
+    position: absolute;
+    bottom: 800px;
+    left: 35px;
+    display:inline-block ;
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+.comment{
+    background-color: #f8f1f1;
+    padding: 10px;
+    margin: 10px;
+}
+
+.comment h5{  
+font-size: 20px;
+width: 300px;
+height:200px;
+padding: 10px;
+margin: 3px;
+    
+}
+
+.comment h3{
+font-size: 24px;
+font-weight: bold;
+}
+.comment h4{
+
+padding: 10px;
+margin: 5px;
+height: 15px;
+width:300px;
 }

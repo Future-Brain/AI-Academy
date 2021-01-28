@@ -1,34 +1,32 @@
 'use strict';
-var user = [];
-var users = [];
-var numberOfUsers = 0;
+var check=true;
+
+///////// add event to the form //////////////
 var formdiv = document.getElementById('formdiv');
 formdiv.addEventListener('submit', signin);
 function signin(event) {
     event.preventDefault();
+    var studentPass = event.target.pass.value;
+    var studentName = event.target.name.value;
+    var studentAge = event.target.age.value;
+    // var studentCourse = event.target.course.value;
+    var studentEmail = event.target.email.value;
+  
+    if(localStorage.getItem(studentName) !==null ){
+      alert('user is already rigestred!!')
+      check=false; 
+      window.open('registration.html','_self')
+  }
     
     if(localStorage.length===0){
-        localStorage.setItem(event.target.name.value ,event.target.email.value);
-
+     
+        localStorage.setItem(studentName, JSON.stringify([ studentEmail, studentAge, studentPass]));
+        window.open('login.html','_self');
     }
-else{
+        if(check===true)
+      {  
+        localStorage.setItem(studentName, JSON.stringify([ studentEmail, studentAge, studentPass]));
+        window.open('login.html','_self');
+         }
+    }
 
-if(localStorage.getItem(event.target.name.value)!== null ) {alert(' user name not available');}
-else{
-    localStorage.setItem(event.target.name.value ,event.target.email.value);
-    alert('your password 1234')
-    window.open('https://google.com','_self');
-  }
-  }}
-       
-  var password = document.getElementById('sign');
-  password.addEventListener('submit',enroll)
-  function enroll(event){
-      if(event.target.pass.value==='1234'){
-          console.log(event.target.pass.value);
-          window.open('https://google.com','_self');}
-          else{alert('unvalid password');}
-      }
-  function saveData (){
-    if(localStorage.getItem(target.name.value)!== null )
-    {alert(' user name not available');}}

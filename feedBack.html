@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/feedBack.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/Abd/logo-.png" alt="logo-">
+        <h2>AI-Academy</h2>
+        <h4>Artificial Intelligence Academy</h4>
+        <nav>
+            <a href="raya.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="feedBack.html">Feedback</a>
+            <a href="login.html">log in</a>
+            <a href="about.html">About Us</a>
+            
+        </nav>
+    </header>
+
+    <main id="feedBackMain">
+        <div class="robot-img">
+            <img src="img/clip-logistic-robot-1.png" class="robot">
+        </div>
+
+        <div class="form-container">
+            <form id="feedBackForm">
+                <fieldset>
+                    <h2>Give us your feedback</h2>
+
+                    <div class="user-input"> 
+                        <span> Full Name: </span>
+                        <input type="text" name="studentName" id="studentName" required placeholder="Enter your name">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="user-input">
+                        <span>E-mail</span>
+                        <input type="text" name="e-mail" required placeholder="Enter e-mail address">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+
+                    <div class="user-input">
+                        <span>Choose Your Course:</span>
+                        <select name="course" id="course" required> 
+                            <option value="course1">select the course you need</option>
+                            <option value="Artificial Intelligence for Finance course">Artificial Intelligence for Finance</option>
+                            <option value="Introduction to Artificial Intelligence course">Introduction to Artificial Intelligence</option>
+                            <option value="Artificial Intelligence for Business course">Artificial Intelligence for Business</option>
+                            <option value="Advanced AI For Games with Goal-Oriented Action Planning course">Advanced AI For Games with Goal-Oriented Action Planning</option>
+                            <option value="Advanced AI For Games with Goal-Oriented Action Planning course">Advanced AI For Games with Goal-Oriented Action Planning</option>
+                        </select>
+                    </div>
+
+                    <textarea name="studentFeedBack" id="studentFeedBack" cols="10" rows="8" required
+                        placeholder="Feel free to tell us about your opinion"></textarea>
+
+                    
+                        <input type="submit" value="submit" class="sub-button">
+                   
+                </fieldset>
+            </form>
+        </div>
+        
+        <div id="feedBackDiv">
+            <div class="comment">
+                <h3>Hossam:</h3>
+                <h4>[Artificial Intelligence for Business course]</h4>
+                <br>
+                <h5>This course was very informative and I feel that I am leaving it with a brand new set of skills.</h5>
+            </div>
+            <div class="comment">
+                <h3>Abdelrahman: </h3>
+                <h4>[Artificial Intelligence for Business course]</h4>
+                <br>
+                <h5>Thank you. I really benefited from this course. clear, easy, and simple language and terms were used.</h5>
+            </div>
+            <div class="comment">
+                <h3>Majidah:</h3>
+                <h4>[Artificial Intelligence for Business course]</h4>
+                <br>
+                <h5>The lectures are very interesting and make me eager to listen. The lectures
+                    are with real-time examples so I am able to understand better.</h5>
+            </div>
+            <div class="comment">
+                <h3>Raya:</h3>
+                <h4>[Artificial Intelligence for Business course]</h4>
+                <br>
+                <h5>Great Course. I love the way it is designed, delivered. I learned a lot. The most imporatnt part is that I enjoy every bit of the session.</h5>
+            </div>
+            <div class="comment">
+                <h3>Mohammad:</h3>
+                <h4>[Artificial Intelligence for Business course]</h4>
+                <br>
+                <h5>First of all, I thank the trainer for being very clear and simple on this complicated topic. I really got benefitted with this course.</h5>
+            </div>
+            <div class="comment">
+                <h3>Ahmad:</h3>
+                <h4>[Artificial Intelligence for Business course]</h4>
+                <br>
+                <h5>Everyone, I mean everyone, should take this course. It is easy to follow while full of tools and understanding.</h5>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <h2>copyright© 2021</h2>
+        <div class="footer-icons">
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-youtube-play"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="js/feedBack.js"></script>
+</body>
+
+</html>
