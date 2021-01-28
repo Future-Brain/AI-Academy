@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 /* font-family: 'Lora', serif; */
+
+html{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
 body{
   width: 100%;
   height:20cm;
@@ -113,7 +121,7 @@ header{
     
     .footer-icons{
         position: relative;
-        left: 42%;
+        left: 43%;
         top:45%;
     }
     .footer-icons i:hover{

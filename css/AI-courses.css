@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 /* font-family: 'Lora', serif; */
 
- html{
-    height:fit-content;
+html{
+    height: 250%;
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 0px;
     overflow-x: hidden;
-} 
+}  
 
 
 body{
@@ -21,7 +21,7 @@ body{
     } 
 
     main{
-        height: fit-content;
+        min-height:250%;
     }
 
 .info img{
@@ -47,7 +47,7 @@ top:160px
 .info a{
     position: absolute;
     font-size: 20px;
-    top:65%;
+    top:61%;
     left:16%;
     color:#f8f1f1;
     background-color: #142843;
@@ -86,7 +86,7 @@ left:0;
 
 .text1{
     position: absolute;
-    top:40%;
+    top:30%;
     width:500px;
     left: 45%;
     font-size: 20px;
@@ -132,7 +132,7 @@ left:0;
 .learn{
     position: relative;
     left: 7%;
-    top:420px;
+    top:-10%;
     width:1300px
 }
 
@@ -228,7 +228,7 @@ header{
     height: 100px;
     width: 100%;
     position: absolute;
-    bottom:-1200px;
+    bottom:-870px;
     background: #17C89A;
     background: -webkit-linear-gradient(right, #17C89A, #142843);
     background: -moz-linear-gradient(right, #17C89A, #142843);
