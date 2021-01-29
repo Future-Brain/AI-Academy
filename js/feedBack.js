@@ -20,9 +20,9 @@ FeedBack.prototype.render = function () {
   studentName.textContent = this.name + ':' ;
   newDiv.appendChild(studentName);
 
-  var studentCourse = document.createElement('h4');
-  studentCourse.textContent='[' + this.course+']' ;
-  newDiv.appendChild(studentCourse);
+  // var studentCourse = document.createElement('h4');
+  // studentCourse.textContent='[' + this.course+']' ;
+  // newDiv.appendChild(studentCourse);
 
   var studentFeedBack = document.createElement('h5');
   studentFeedBack.textContent =this.feedBack;
@@ -33,7 +33,8 @@ var dataFromLocal = JSON.parse(localStorage.getItem('feedBack'));
 if (dataFromLocal) {
   for (var i = 0;i< dataFromLocal.length; i++) {
 
-    var JsData = new FeedBack(dataFromLocal[i].name+": ", dataFromLocal[i].course, dataFromLocal[i].feedBack);   JsData.render();
+    var JsData = new FeedBack(dataFromLocal[i].name+": ", dataFromLocal[i].course, dataFromLocal[i].feedBack);   
+    JsData.render();
   }
 }
 
@@ -51,8 +52,6 @@ function submitFun(event) {
   var newFeedBack = new FeedBack(studentNameVal, courseVal, feedBackVal);
   localStorage.setItem('feedBack', JSON.stringify(FeedBack.prototype.allFeedBack));
   newFeedBack.render();
-
-
 
 }
 

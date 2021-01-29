@@ -110,7 +110,7 @@ footer h2{
 
 .footer-icons{
     position: relative;
-    left: 42%;
+    left: 43%;
     top:20%;
 }
 .footer-icons i:hover{
@@ -195,7 +195,7 @@ form .sub-button{
     background-color: #04377a;
     padding-bottom:5%;
     width: 100%;
-    font-size: 22px;
+    font-size: 18px;
     color: #F8F1F1;
     font-family: 'Lora', serif;
 }
